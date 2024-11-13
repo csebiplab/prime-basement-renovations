@@ -29,6 +29,8 @@ import Expert from "./Expert/Expert";
 import Experienced from "./Experienced/Experienced";
 import BasementRenovations from "./BasementRenovations/BasementRenovations";
 import Professional from "./Professional/Professional";
+import Trusted from "./Trusted/Trusted";
+import Elevating from "./Elevating/Elevating";
 const MainHomePage = () => {
   return (
     <div className="homePage__bg custom-container">
@@ -59,6 +61,14 @@ const MainHomePage = () => {
 
       <section>
         <Expert />
+      </section>
+
+      <section>
+        <Elevating />
+      </section>
+
+      <section>
+        <Trusted />
       </section>
 
       <section>
