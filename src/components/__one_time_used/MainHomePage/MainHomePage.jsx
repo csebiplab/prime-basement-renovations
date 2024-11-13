@@ -36,9 +36,9 @@ const MainHomePage = () => {
         <PartnerNRatings classNames={{ bg: "homePage__bg" }} />
       </section>
 
-      {/* <section>
+      <section>
         <AboutUs />
-      </section> */}
+      </section>
 
       {/* <section>
         <LeadingToronto />
