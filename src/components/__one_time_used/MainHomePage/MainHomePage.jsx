@@ -24,6 +24,9 @@ import JoinWithUs from "./JoinWithUs/JoinWithUs";
 import Benefits from "./Benefits/Benefits";
 import WhyChooseUs from "./WhyChooseUs/WhyChooseUs";
 import ContactUs from "./ContactUs/ContactUs";
+import ReadyToStart from "./ReadyToStart/ReadyToStart";
+import Expert from "./Expert/Expert";
+import Experienced from "./Experienced/Experienced";
 const MainHomePage = () => {
   return (
     <div className="homePage__bg custom-container">
@@ -38,6 +41,18 @@ const MainHomePage = () => {
 
       <section>
         <AboutUs />
+      </section>
+
+      <section>
+        <Experienced />
+      </section>
+
+      <section>
+        <Expert />
+      </section>
+
+      <section>
+        <ReadyToStart />
       </section>
 
       {/* <section>
