@@ -31,6 +31,7 @@ import Professional from "./Professional/Professional";
 import Trusted from "./Trusted/Trusted";
 import Elevating from "./Elevating/Elevating";
 import LocationMap from "./LocationMap/LocationMap";
+import OurBasementRenovation from "./OurBasementRenovation/OurBasementRenovation";
 const MainHomePage = () => {
   return (
     <div className="homePage__bg custom-container">
@@ -60,6 +61,14 @@ const MainHomePage = () => {
       </section>
 
       <section>
+        <WorkingProcess />
+      </section>
+
+      <section>
+        <ProjectGallery />
+      </section>
+
+      <section>
         <Expert />
       </section>
 
@@ -69,6 +78,14 @@ const MainHomePage = () => {
 
       <section>
         <Trusted />
+      </section>
+
+      <section>
+        <OurBasementRenovation />
+      </section>
+
+      <section>
+        <WhyChooseUs />
       </section>
 
       <section>
@@ -103,13 +120,9 @@ const MainHomePage = () => {
         <PoolComparison />
       </section> */}
 
-      <section>
-        <WorkingProcess />
-      </section>
+      
 
-      <section>
-        <ProjectGallery />
-      </section>
+      
 
       {/* <section>
         <ConsiderationsLimitations />
@@ -123,9 +136,7 @@ const MainHomePage = () => {
         <CostFactors />
       </section> */}
 
-      <section>
-        <WhyChooseUs />
-      </section>
+      
 
       {/* <section>
         <HireFor />
