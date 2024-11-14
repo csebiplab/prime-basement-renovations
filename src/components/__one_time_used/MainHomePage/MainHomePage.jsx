@@ -14,7 +14,6 @@ import { bHeadingTexts } from "@/utils/bHeadingText";
 import { headingIconText } from "@/utils/heading-text";
 import PartnerNRatings from "./PartnerNRatings/PartnerNRatings";
 import OurServiceAreas from "./OurServiceAreas/OurServiceAreas";
-import Review from "./Review/Review";
 import ProjectGallery from "./ProjectGallery/ProjectGallery";
 import PoolComparison from "./PoolComparison/PoolComparison";
 import CostFactors from "./CostFactors/CostFactors";
@@ -31,6 +30,7 @@ import BasementRenovations from "./BasementRenovations/BasementRenovations";
 import Professional from "./Professional/Professional";
 import Trusted from "./Trusted/Trusted";
 import Elevating from "./Elevating/Elevating";
+import LocationMap from "./LocationMap/LocationMap";
 const MainHomePage = () => {
   return (
     <div className="homePage__bg custom-container">
@@ -139,9 +139,9 @@ const MainHomePage = () => {
         <Faq />
       </section>
 
-      {/* <section>
-        <Review />
-      </section> */}
+      <section>
+        <LocationMap />
+      </section>
 
       {/* <section className="padding__all bg_poolInstallationCompanyInMarkham">
         <OurServiceAreas

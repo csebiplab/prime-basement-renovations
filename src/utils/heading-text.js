@@ -13,6 +13,7 @@ export const headingIconText = {
     workingProcess__IconText : "Working Process",
     gallery__IconText : "Gallery",
     chooseUs__IconText : "Choose Us",
+    serviceAreas__IconText : "Service Areas",
 
 
     leadingToronto__IconText : "Leading Toronto Swimming Pool",
@@ -30,6 +31,6 @@ export const headingIconText = {
     hireForInstallation__IconText : "Hire For Installation Services",
     joinWithUs__IconText : "Join With Us",
     review__IconText : "Review",
-    ourServiceAreas__IconText : "Our Service Areas",
+    
 
 }
