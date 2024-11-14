@@ -11,23 +11,23 @@ import HeadingIcon from "@/components/ui/HeadingIcon";
 import { headingIconText } from "@/utils/heading-text";
 
 const galImgs = [
-  "/assets/homePage/gallery/gallery1.png",
-  "/assets/homePage/gallery/gallery2.png",
-  "/assets/homePage/gallery/gallery3.png",
-  "/assets/homePage/gallery/gallery4.png",
-  "/assets/homePage/gallery/gallery5.png",
-  "/assets/homePage/gallery/gallery6.png",
-  "/assets/homePage/gallery/gallery7.png",
+  "/assets/primeBasementHomePage/gallery/gallery1.png",
+  "/assets/primeBasementHomePage/gallery/gallery2.png",
+  "/assets/primeBasementHomePage/gallery/gallery3.png",
+  "/assets/primeBasementHomePage/gallery/gallery4.png",
+  "/assets/primeBasementHomePage/gallery/gallery5.png",
+  "/assets/primeBasementHomePage/gallery/gallery6.png",
+  "/assets/primeBasementHomePage/gallery/gallery7.png",
 ];
 
 const galImgs2 = [
-  "/assets/homePage/gallery/gallery7.png",
-  "/assets/homePage/gallery/gallery6.png",
-  "/assets/homePage/gallery/gallery5.png",
-  "/assets/homePage/gallery/gallery4.png",
-  "/assets/homePage/gallery/gallery3.png",
-  "/assets/homePage/gallery/gallery2.png",
-  "/assets/homePage/gallery/gallery1.png",
+  "/assets/primeBasementHomePage/gallery/gallery8.png",
+  "/assets/primeBasementHomePage/gallery/gallery9.png",
+  "/assets/primeBasementHomePage/gallery/gallery1.png",
+  "/assets/primeBasementHomePage/gallery/gallery2.png",
+  "/assets/primeBasementHomePage/gallery/gallery3.png",
+  "/assets/primeBasementHomePage/gallery/gallery4.png",
+  "/assets/primeBasementHomePage/gallery/gallery5.png",
 ];
 
 const ProjectGallery = ({ bHeading = "empty" }) => {
@@ -55,10 +55,10 @@ const ProjectGallery = ({ bHeading = "empty" }) => {
       <div className="custom-containe padding__top">
         <div className="container">
           <div className="flex flex-col justify-center items-center">
-            <HeadingIcon text={headingIconText.gallery_IconText} />
+            <HeadingIcon text={headingIconText.gallery__IconText} />
             <div className="">
-              <h2 className="text-[25px] md:text-[27px] lg:text-[29px] xl:text-[32px] 2xl:text-[34px] 3xl:text-[36px] 4xl:text-[38px] 5xl:tex-[40px] font-bold text-black text-center leading-normal pt-[5px] pb-[25px]">
-              Swimming Pools Installation Gallery Of Past Projects
+              <h2 className="text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-black text-center leading-normal">
+              Gallery Of Our Basement Renovation Contractors Toronto
               </h2>
             </div>
           </div>

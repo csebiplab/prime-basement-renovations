@@ -1,6 +1,5 @@
 export const headingIconText = {
 
-
     // home page 
     aboutUs__IconText : "About Us",
     basementRenovations__IconText : "Basement Renovations",
@@ -11,6 +10,8 @@ export const headingIconText = {
     trusted__IconText : "Trusted",
     readyToStart__IconText : "Ready to Start",
     faq__IconText : "FAQ",
+    workingProcess__IconText : "Working Process",
+    gallery__IconText : "Gallery",
 
 
     leadingToronto__IconText : "Leading Toronto Swimming Pool",
@@ -20,15 +21,13 @@ export const headingIconText = {
     specialists__IconText : "Specialists",
     installationServices__IconText : "Installation Services",
     poolComparison__IconText : "Pool Comparison",
-    workingProcess__IconText : "Working Process",
-    gallery__IconText : "Gallery",
+   
     considerationsLimitations__IconText : "Considerations & Limitations",
     benefits__IconText : "Benefits",
     costFactors__IconText : "Cost Factors",
     chooseUs__IconText : "Choose Us",
     hireForInstallation__IconText : "Hire For Installation Services",
     joinWithUs__IconText : "Join With Us",
-    
     review__IconText : "Review",
     ourServiceAreas__IconText : "Our Service Areas",
 

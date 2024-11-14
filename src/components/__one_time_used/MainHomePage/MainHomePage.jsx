@@ -107,9 +107,9 @@ const MainHomePage = () => {
         <WorkingProcess />
       </section>
 
-      {/* <section>
+      <section>
         <ProjectGallery />
-      </section> */}
+      </section>
 
       {/* <section>
         <ConsiderationsLimitations />
