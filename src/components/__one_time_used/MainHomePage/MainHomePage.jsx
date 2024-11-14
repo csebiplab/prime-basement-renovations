@@ -103,9 +103,9 @@ const MainHomePage = () => {
         <PoolComparison />
       </section> */}
 
-      {/* <section>
+      <section>
         <WorkingProcess />
-      </section> */}
+      </section>
 
       {/* <section>
         <ProjectGallery />
@@ -135,9 +135,9 @@ const MainHomePage = () => {
         <JoinWithUs />
       </section> */}
 
-      {/* <section>
+      <section>
         <Faq />
-      </section> */}
+      </section>
 
       {/* <section>
         <Review />

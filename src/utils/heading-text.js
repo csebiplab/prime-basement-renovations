@@ -10,6 +10,7 @@ export const headingIconText = {
     elevating__IconText : "Elevating",
     trusted__IconText : "Trusted",
     readyToStart__IconText : "Ready to Start",
+    faq__IconText : "FAQ",
 
 
     leadingToronto__IconText : "Leading Toronto Swimming Pool",
@@ -27,7 +28,7 @@ export const headingIconText = {
     chooseUs__IconText : "Choose Us",
     hireForInstallation__IconText : "Hire For Installation Services",
     joinWithUs__IconText : "Join With Us",
-    faq__IconText : "Frequently Asked Questions (FAQ)",
+    
     review__IconText : "Review",
     ourServiceAreas__IconText : "Our Service Areas",
 

@@ -147,9 +147,8 @@ const Faq = () => {
           <HeadingIcon text={headingIconText.faq__IconText} />
 
           <div>
-            <h2 className="text-black text-[32px] md:text-[33px] xl:text-[34px] 2xl:text-[36px] 3xl:text-[38px]4xl:text-[40px] 5xl:text-[42px] font-bold text-center">
-              Frequently Asked Questions (FAQ): Swimming Pool Installation
-              Services in Toronto
+            <h2 className="ttext-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-black text-center leading-normal">
+            Frequently Asked Questions of Basement Renovation 
             </h2>
           </div>
         </div>
@@ -157,7 +156,7 @@ const Faq = () => {
           {QAPoolInstallationQuestionsNAns.map((ques, idx) => (
             <div key={idx}>
               <details className="group [&_summary::-webkit-details-marker]:hidden">
-                <summary className="flex cursor-pointer items-center justify-between gap-1.5 bg-primary-800  py-3 px-5 5xl:py-[14px] 5xl:px-8 border-2">
+                <summary className="flex cursor-pointer items-center justify-between gap-1.5 bg-black  py-3 px-5 5xl:py-[14px] 5xl:px-8 border-2">
                   <p className="text-white text-sm lg:text-sm xl:text-base 5xl:text-lg 5xl:leading-[22px] font-bold">
                     {ques.question}
                   </p>

@@ -7,47 +7,51 @@ import Image from 'next/image';
 const workingData = [
     {
         id : 1,
-        img : "/assets/homePage/workingProcess/working1.png",
-        title : "Consultation",
-        desc : "We begin with an on-site consultation to assess your space, discuss your vision, and provide a customized quote."
+        img : "/assets/primeBasementHomePage/workingProcess/working1.png",
+        title : "Initial Consultation",
+        desc : "The process begins with an initial consultation to discuss your ideas, goals, and vision for your basement. Please share your preferences and needs while we assess the space and understand your needs."
     },
     {
         id : 2,
-        img : "/assets/homePage/workingProcess/working2.png",
-        title : "Design",
-        desc : "Our team collaborates with you to create a pool design that fits your preferences, space, and budget."
+        img : "/assets/primeBasementHomePage/workingProcess/working2.png",
+        title : "Design Planning",
+        desc : "Our design team will create a customized plan to incorporate your vision. We provide detailed layouts and 3D renderings, allowing you to visualize the final product. We will also discuss material selections, finishes, and budget considerations."
     },
     {
         id : 3,
-        img : "/assets/homePage/workingProcess/working3.png",
-        title : "Permits",
-        desc : "To comply with local regulations, we handle the necessary permits and paperwork."
+        img : "/assets/primeBasementHomePage/workingProcess/working3.png",
+        title : "Proposal and Agreement",
+        desc : "Once the design is finalized, we present a detailed proposal that outlines the scope of work, timelines, and costs. After your approval, we'll finalize the contract to begin the renovation."
     },
     {
         id : 4,
-        img : "/assets/homePage/workingProcess/working4.png",
-        title : "Preparation",
-        desc : "The site undergoes excavation and preparation for the pool foundation."
+        img : "/assets/primeBasementHomePage/workingProcess/working4.png",
+        title : "Preparation & Permitting",
+        desc : "We handle all necessary permits and approvals, ensuring compliance with local building codes. Our team prepares the site by setting up protective measures and organizing materials for a smooth workflow."
     },
-]
-const workingData1 = [
     {
         id : 5,
-        img : "/assets/homePage/workingProcess/working5.png",
-        title : "Installation",
-        desc : "Our contractors install the pool, including the plumbing, electrical systems, and other features."
+        img : "/assets/primeBasementHomePage/workingProcess/working5.png",
+        title : "Construction Phase",
+        desc : "Our experienced contractors will begin the renovation, focusing on quality workmanship and attention to detail. We keep you informed throughout the process, providing updates and addressing any questions or concerns that may arise. Regular site visits"
     },
     {
         id : 6,
-        img : "/assets/homePage/workingProcess/working6.png",
-        title : "Finishing touches",
-        desc : "We complete the project with decking, landscaping, and safety features."
+        img : "/assets/primeBasementHomePage/workingProcess/working6.png",
+        title : "Quality Assurance",
+        desc : "As we near completion, our team controls every detail to meet our high quality."
     },
     {
         id : 7,
-        img : "/assets/homePage/workingProcess/working7.png",
-        title : "Inspection & Handover",
-        desc : "The site undergoes excavation and preparation for the pool foundation."
+        img : "/assets/primeBasementHomePage/workingProcess/working7.png",
+        title : "Final Walkthrough",
+        desc : "After completing the renovation, we complete a final walkthrough with you to ensure your satisfaction. We will address any last-minute adjustments and ensure you're happy with your new space."
+    },
+    {
+        id : 8,
+        img : "/assets/primeBasementHomePage/workingProcess/working8.png",
+        title : "Aftercare",
+        desc : "Our commitment to you doesn't end with the renovation. We provide aftercare support to ensure your basement remains in excellent condition."
     }
 ]
 
@@ -57,26 +61,13 @@ const WorkingProcess = () => {
             <div className='container padding__top'>
                 <div className='flex flex-col justify-center items-center'>
                     <HeadingIcon text={headingIconText.workingProcess__IconText}/>
-                    <h2 className='text-[25px] md:text-[27px] lg:text-[29px] xl:text-[32px] 2xl:text-[34px] 3xl:text-[36px] 4xl:text-[38px] 5xl:tex-[40px] font-bold text-black text-center md:text-left leading-normal pt-[5px]'>Working Process of Our Pool Installation Contractors</h2>
-                    <p className='text-lg font-normal text-black text-center pt-[10px]'>At Easy Pools, our pool installation contractors follow a clear and efficient process to ensure a seamless project:</p>
+                    <h2 className='text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-black text-center leading-normal'>Working Process of Our Basement Renovation Contractors Toronto</h2>
+                    <p className='text-lg font-normal leading-[35px] text-black text-center mt-[5px] md:mt-[10px]'>At Prime Basement Renovations, we design our working process to ensure a smooth and efficient experience throughout their basement renovation journey. Here's a breakdown of how our professional basement renovation contractors in Toronto operate:</p>
                 </div>
                 {/* first div  */}
-                <div className='grid grid-cols-1 md:grid-cols-4 gap-[60px] 5xl:gap-[83px] pt-[25px]'>
+                <div className='grid grid-cols-1 md:grid-cols-3 gap-[60px] 5xl:gap-[83px] pt-[25px]'>
                     {
                         workingData?.map((data)=>{
-                            return <div key={data.id} className="relative">
-                                <Image src={data.img} alt="working img" width={129} height={129} className='w-[129px] h-[129px] mx-auto'/>
-                                <p className='text-[25px] text-center font-bold leading-9 text-black pt-[15px] pb-[10px]'>{data.title}</p>
-                                <p className='text-lg font-light text-black text-center pb-[25px]'>{data.desc}</p>
-                                <div className='absolute bottom-0 w-full h-[2px] bg-secondary-900'/>
-                            </div>
-                        })
-                    }
-                </div>
-                {/* second div  */}
-                <div className='grid grid-cols-1 md:grid-cols-3 justify-items-center px-0 md:px-[120px] 5xl:px-[133px] gap-[60px] 5xl:gap-[83px] pt-[50px]'>
-                    {
-                        workingData1?.map((data)=>{
                             return <div key={data.id} className="relative">
                                 <Image src={data.img} alt="working img" width={129} height={129} className='w-[129px] h-[129px] mx-auto'/>
                                 <p className='text-[25px] text-center font-bold leading-9 text-black pt-[15px] pb-[10px]'>{data.title}</p>
