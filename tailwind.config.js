@@ -35,7 +35,7 @@ module.exports = withMT({
           500: "#188B89",  // Default
           600: "#00787A",  // Darker variant for better contrast
           700: "#006564",
-          800 : "#188B89;"
+          800 : "#905C4C"
         },
         secondary: {
           DEFAULT: "#049E43",
@@ -103,7 +103,7 @@ module.exports = withMT({
           400: "#484848",
           500: "#4A4A4A",  // Default
           600: "#272727",  // Darker variant (Same as default)
-          700: "#000000",
+          700: "#333333",
         },
         gray: {
           100: "#F5F5F5",  // Lightest gray

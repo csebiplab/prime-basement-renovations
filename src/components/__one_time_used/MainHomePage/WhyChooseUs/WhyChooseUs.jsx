@@ -7,66 +7,90 @@ import { headingIconText } from "@/utils/heading-text";
 
 const usualPool = [
   {
-    title: "Low-quality workmanship",
+    title: "Unreliable and delayed project timelines",
   },
   {
-    title: "Unreliable timelines",
+    title: "Hidden fees and unclear pricing",
   },
   {
-    title: "Inadequate customer service",
+    title: "Poor quality workmanship",
   },
   {
-    title: "Low-quality materials are used.",
+    title: "Lack of proper permits and compliance",
   },
   {
-    title: "Lack of attention to detail",
+    title: "Inexperienced or unlicensed contractors",
   },
   {
-    title: "Shoddy installation practices",
+    title: "Limited design flexibility",
   },
   {
-    title: "Ignored safety regulations",
+    title: "Failure to communicate effectively",
   },
   {
-    title: "Pool warranty coverage is limited.",
+    title: "Inconsistent clean-up and job site safety",
   },
   {
-    title: "Communication difficulties",
+    title: "Unmet expectations and disappointing",
   },
   {
-    title: "Hidden fees and expenses",
+    title: "Subpar materials and finishes",
+  },
+  {
+    title: "Unprofessional or rude behavior",
+  },
+  {
+    title: "Unexpected structural issues & problems",
+  },
+  {
+    title: "Inadequate project management",
+  },
+  {
+    title: "Poor attention to detail",
   }
 ];
 const easyPool = [
   {
-    title: "Pool construction expertise",
+    title: "Timely and reliable project completion",
   },
   {
-    title: "Technical proficiency in pool install",
+    title: "Transparent pricing with no hidden costs",
   },
   {
-    title: "Skilled pool design and layout",
+    title: "Expert craftsmanship & quality materials",
   },
   {
-    title: "Quality assurance and attention ",
+    title: "Fully licensed and insured professionals",
   },
   {
-    title: "Efficient project management",
+    title: "Custom Designs Tailored to Your Needs",
   },
   {
-    title: "Compliance with safety standards",
+    title: "Efficient communicate every step",
   },
   {
-    title: "Expertise in equipment installation",
+    title: "Attention to detail and precision work",
   },
   {
-    title: "Landscaping integration",
+    title: "Comprehensive project management ",
   },
   {
-    title: "Excellence in customer service",
+    title: "Energy-efficient solutions for long-term ",
   },
   {
-    title: "Troubleshooting & problem-solving",
+    title: "Seamless integration with your home's",
+  },
+  {
+    title: "Proven track record of customer satisfy",
+  },
+  {
+    title: "Safety & compliance with local building",
+  },
+  {
+    title: "Full range of basement under one roof",
+  },
+  {
+    title: "Creative solutions for every basement",
   } 
 ];
 
@@ -85,21 +109,21 @@ const WhyChooseUs = () => {
               </div>
 
               <div>
-                <h2 className="text-[25px] md:text-[27px] lg:text-[29px] xl:text-[32px] 2xl:text-[34px] 3xl:text-[36px] 4xl:text-[38px] 5xl:tex-[40px] font-bold text-black text-center md:text-left leading-normal pt-[5px]">
-                Choose Our Expert Pool Installers in Toronto
+                <h2 className="text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-black text-center md:text-left leading-normal">
+                Choose Our Toronto Basement Renovations Company
                 </h2>
               </div>
 
               <div>
-                <p className="text-lg font-normal md:text-start text-center text-black">
-                Trust our professionals to deliver exceptional results for transforming your backyard into a luxurious oasis. Choose our expert pool installers in Toronto for a seamless and satisfying experience from start to finish.
+                <p className="text-lg font-normal leading-[35px] text-black text-center md:text-left mt-[5px] md:mt-[10px]">
+                Prime Basement Renovations is the trusted choice in Toronto to transform your basement into a beautiful, functional living space. Here's why homeowners across the city choose us for their basement renovation projects: At Prime Basement Renovations, we renovate spaces to create places where memories are made. Whether you're looking for additional living space, a home office, or a high-end entertainment zone, we'll help you unlock the full potential of your basement. Let us guide you through the process, ensuring a stress-free, seamless renovation experience.
                 </p>
               </div>
             </div>
 
             <div className="w-full my-6 md:my-0 cart1">
-              <p className="title-bg text-center 2xl:py-[15px] py-[14px] text-black text-base md:text-lg font-bold">
-              Usual Swimming Pool Installers
+              <p className="title-bg text-center 2xl:py-[15px] py-[14px] text-primary-800 text-base md:text-lg font-bold">
+              Usual Basement Renovation Contractors
               </p>
               <div className="grid grid-rows-8 3xl:py-[35px] py-[20px] px-[20px] 2xl:text-[16px] lg:text-sm xs:text-[9px]">
                 {usualPool?.map((usual, index) => (
@@ -126,8 +150,9 @@ const WhyChooseUs = () => {
               </div>
             </div>
             <div className="my-6 md:my-0 cart2">
-              <p className="title-bg2 text-center 2xl:py-[15px] py-[14px] text-black text-base md:text-lg font-bold">
-              Easy Pools Pool Installers
+              <p className="flex items-center gap-[10px] title-bg2 text-center 2xl:py-[15px] py-[14px] px-[20px] 5xl:px-[24px] text-dark-700 text-base md:text-lg font-bold">
+                <Image src="/assets/primeBasementHomePage/prime_basement_renovation_choose_us.png" alt="choose us logo" width={107} height={62}/>
+                <span>Our basement renovation experts</span>
               </p>
               <div className="grid grid-rows-8 3xl:py-[35px] py-[25px] px-[20px] 2xl:text-[16px] lg:text-sm xs:text-[9px]">
                 {easyPool?.map((usual, index) => (

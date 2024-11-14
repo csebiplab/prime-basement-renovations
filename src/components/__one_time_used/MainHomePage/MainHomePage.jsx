@@ -123,9 +123,9 @@ const MainHomePage = () => {
         <CostFactors />
       </section> */}
 
-      {/* <section>
+      <section>
         <WhyChooseUs />
-      </section> */}
+      </section>
 
       {/* <section>
         <HireFor />
