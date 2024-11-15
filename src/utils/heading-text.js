@@ -15,6 +15,7 @@ export const headingIconText = {
     chooseUs__IconText : "Choose Us",
     serviceAreas__IconText : "Service Areas",
     ourBasementRenovation__IconText : "Do's and Don'ts",
+    benefits__IconText : "Benefits",
 
 
     leadingToronto__IconText : "Leading Toronto Swimming Pool",
@@ -26,7 +27,7 @@ export const headingIconText = {
     poolComparison__IconText : "Pool Comparison",
    
     considerationsLimitations__IconText : "Considerations & Limitations",
-    benefits__IconText : "Benefits",
+    
     costFactors__IconText : "Cost Factors",
     
     hireForInstallation__IconText : "Hire For Installation Services",

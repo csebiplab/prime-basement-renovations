@@ -128,9 +128,9 @@ const MainHomePage = () => {
         <ConsiderationsLimitations />
       </section> */}
 
-      {/* <section>
+      <section>
         <Benefits />
-      </section> */}
+      </section>
 
       {/* <section>
         <CostFactors />
