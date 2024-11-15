@@ -32,6 +32,7 @@ import Trusted from "./Trusted/Trusted";
 import Elevating from "./Elevating/Elevating";
 import LocationMap from "./LocationMap/LocationMap";
 import OurBasementRenovation from "./OurBasementRenovation/OurBasementRenovation";
+import Review from "./Review/Review";
 const MainHomePage = () => {
   return (
     <div className="homePage__bg custom-container">
@@ -130,6 +131,10 @@ const MainHomePage = () => {
 
       <section>
         <Benefits />
+      </section>
+
+      <section>
+        <Review />
       </section>
 
       {/* <section>
