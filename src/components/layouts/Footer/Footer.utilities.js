@@ -23,23 +23,23 @@ export const brandSVG = {
 
 export const footerLinks = [
     {
-        cat: "News",
+        cat: "Quick Access",
         links: [
-            { label: "How it works ", url: "/" },
-            { label: "Gallery", url: "/" },
-            { label: "Testimonial", url: "/" },
-            { label: "Careers", url: "/" },
-            { label: "Sitemap", url: "/sitemap" },
+            { label: "Home", url: "/" },
+            { label: "Services", url: "/" },
+            { label: "Blog", url: "/" },
+            { label: "About Us", url: "/" },
+            { label: "Contact Us", url: "/sitemap" },
         ],
     },
     {
-        cat: "Ours Services",
+        cat: "Services",
         links: [
-            { label: "Vinyl pool", url: "/" },
-            { label: "Fiberglass pool", url: "/" },
-            { label: "Concrete pool", url: "/" },
-            { label: "ICF pool", url: "/" },
-            { label: "Pool Installations", url: "/" },
+            { label: "weigth Loss", url: "/" },
+            { label: "Fat Reduction", url: "/" },
+            { label: "Muscle Building", url: "/" },
+            { label: "Body Contouring", url: "/" },
+            { label: "Contact Us", url: "/" },
         ],
     },
 ];

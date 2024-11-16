@@ -3,10 +3,11 @@ import "./ContactNow.css";
 import HeadingIcon from "@/components/ui/HeadingIcon";
 import { headingIconText } from "@/utils/heading-text";
 import Image from "next/image";
+import Link from "next/link";
 
 const ContactNow = () => {
   return (
-    <div className="container padding__top">
+    <div className="container padding__all">
       <div className="grid grid-cols-1 md:grid-cols-5 gap-[27px]">
         <div className="md:col-span-2">
           <div>
@@ -16,9 +17,9 @@ const ContactNow = () => {
             Get Free Professional Consultation
           </h2>
           <ul className="pt-[26px]">
-            <li className="flex items-center gap-[15px] text-black text-base font-normal leading-[25px]"> <Image src="/assets/primeBasementHomePage/icons/map.png" alt="map icon" width={28} height={28}/> 163 Bowes rd, Toronto</li>
-            <li className="flex items-center gap-[15px] text-black text-base font-normal leading-[25px] py-[33px]"> <Image src="/assets/primeBasementHomePage/icons/phone.png" alt="phone icon" width={28} height={28}/> 647-449-9512</li>
-            <li className="flex items-center gap-[15px] text-black text-base font-normal leading-[25px]"> <Image src="/assets/primeBasementHomePage/icons/mail.png" alt="mail icon" width={28} height={28}/> basement Renovation@gmail.com</li>
+            <li className="flex items-center gap-[15px] text-black text-base font-normal leading-[25px]"> <Image src="/assets/primeBasementHomePage/icons/map.png" alt="map icon" width={28} height={28}/> <Link className="text-black" href="location:163 Bowes rd, Toronto">163 Bowes rd, Toronto</Link> </li>
+            <li className="flex items-center gap-[15px] text-black text-base font-normal leading-[25px] py-[33px]"> <Image src="/assets/primeBasementHomePage/icons/phone.png" alt="phone icon" width={28} height={28}/> <Link className="text-black" href="tel:647-449-9512">647-449-9512</Link></li>
+            <li className="flex items-center gap-[15px] text-black text-base font-normal leading-[25px]"> <Image src="/assets/primeBasementHomePage/icons/mail.png" alt="mail icon" width={28} height={28}/> <Link className="text-black" href="mailto:basement Renovation@gmail.com">basement Renovation@gmail.com</Link></li>
             <li className="flex items-center gap-[15px] text-black text-base font-normal leading-[25px] pt-[33px]">
             <Image src="/assets/primeBasementHomePage/icons/clock.png" alt="clock icon" width={28} height={28}/>
               {" "}
