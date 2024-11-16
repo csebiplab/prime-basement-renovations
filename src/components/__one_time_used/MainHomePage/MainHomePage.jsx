@@ -15,7 +15,6 @@ import { headingIconText } from "@/utils/heading-text";
 import PartnerNRatings from "./PartnerNRatings/PartnerNRatings";
 import OurServiceAreas from "./OurServiceAreas/OurServiceAreas";
 import ProjectGallery from "./ProjectGallery/ProjectGallery";
-import PoolComparison from "./PoolComparison/PoolComparison";
 import CostFactors from "./CostFactors/CostFactors";
 import InstallationServices from "./InstallationServices/InstallationServices";
 import Faq from "./Faq/Faq";
@@ -33,16 +32,18 @@ import Elevating from "./Elevating/Elevating";
 import LocationMap from "./LocationMap/LocationMap";
 import OurBasementRenovation from "./OurBasementRenovation/OurBasementRenovation";
 import Review from "./Review/Review";
+import BasementRenovationsContractors from "./BasementRenovationsContractors/BasementRenovationsContractors";
+import ContactNow from "./ContactNow/ContactNow";
 const MainHomePage = () => {
   return (
-    <div className="homePage__bg custom-container">
+    <div className=" custom-container">
 
       {/* <section>
         <Banner/>
       </section> */}
 
       <section>
-        <PartnerNRatings classNames={{ bg: "homePage__bg" }} />
+        <PartnerNRatings />
       </section>
 
       <section>
@@ -117,9 +118,9 @@ const MainHomePage = () => {
         <InstallationServices />
       </section> */}
 
-      {/* <section>
-        <PoolComparison />
-      </section> */}
+      <section>
+        <BasementRenovationsContractors />
+      </section>
 
       
 
@@ -157,6 +158,10 @@ const MainHomePage = () => {
 
       <section>
         <LocationMap />
+      </section>
+
+      <section>
+        <ContactNow />
       </section>
 
       {/* <section className="padding__all bg_poolInstallationCompanyInMarkham">

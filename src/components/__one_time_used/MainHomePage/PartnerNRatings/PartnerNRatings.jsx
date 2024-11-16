@@ -29,14 +29,12 @@ const ratingImgs = [
   },
 ];
 
-const PartnerNRatings = ({ classNames }) => {
+const PartnerNRatings = () => {
   return (
-    <div className={`${classNames ? classNames?.bg : "bg-white"}`}>
+    <div>
       <div className="container flex justify-center w-full  z-50 ">
         <div
-          className={`${
-            classNames ? classNames?.bg : "bg-white"
-          } w-full mx-auto lg:px-0 px-[30px] mt-4 md:mt-0 lg:rounded-xl`}
+          className="w-full mx-auto lg:px-0 px-[30px] mt-4 md:mt-0 lg:rounded-xl"
         >
           <div
             className={`bg-white

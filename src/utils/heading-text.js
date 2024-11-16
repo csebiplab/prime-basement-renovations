@@ -14,9 +14,10 @@ export const headingIconText = {
     gallery__IconText : "Gallery",
     chooseUs__IconText : "Choose Us",
     serviceAreas__IconText : "Service Areas",
-    ourBasementRenovation__IconText : "Do's and Don'ts",
+    ourBasementRenovation__IconText : "Do's and Don'ts", 
     benefits__IconText : "Benefits",
     review__IconText : "Reviews",
+    contactNow__IconText : "Contact Now",
 
 
     leadingToronto__IconText : "Leading Toronto Swimming Pool",
