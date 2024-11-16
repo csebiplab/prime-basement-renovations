@@ -78,8 +78,8 @@ const locations = [
 const LocationMap = () => {
   return (
     <div>
-      <div className="custom-container">
-        <div className="py-[30px] lg:py-[120px] 5xl:py-[168px]">
+      <div className="custom-container padding__top">
+        <div className="">
           <div className="mx-auto flex flex-col items-center justify-center ">
           <HeadingIcon text={headingIconText.serviceAreas__IconText}/>
 
