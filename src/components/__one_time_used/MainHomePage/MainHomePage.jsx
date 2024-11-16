@@ -38,9 +38,9 @@ const MainHomePage = () => {
   return (
     <div className=" custom-container">
 
-      {/* <section>
+      <section>
         <Banner/>
-      </section> */}
+      </section>
 
       <section>
         <PartnerNRatings />

@@ -206,7 +206,7 @@ export function NavHeader() {
               <div className="flex gap-x-4">
                 <div className="">
                   <button className="flex items-center gap-[10px] py-[15px] px-[12px] text-base font-bold text-white leading-normal rounded-[8px] bg-primary-700">
-                    Get a Free Quote{" "}
+                  <Link className="text-white" href="tel:647-449-9512">Get a Free Quote</Link>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="22"

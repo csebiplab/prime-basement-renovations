@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import Link from "next/link";
 const UpperNavbar = () => {
   return (
     <nav className="container py-2 bg__uppernav hidden md:block">
@@ -31,7 +31,7 @@ const UpperNavbar = () => {
             </div>
             <div>
               <p className="text-xs text-black font-normal leading-normal ">Service Support 24/7</p>
-              <p className="text-base font-bold leading-normal text-black">647-449-9512</p>
+              <p className="text-base font-bold leading-normal text-black"><Link className="text-black" href="tel:647-449-9512">647-449-9512</Link></p>
             </div>
           </div>
         </div>

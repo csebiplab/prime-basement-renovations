@@ -4,32 +4,31 @@ import Link from "next/link";
 
 const Banner = () => {
   return (
-    <div>
-      <div className="h-[320px] xl:h-[450px] 5xl:h-[812px] banner__bg">
-        <div className="h-full flex flex-col justify-center items-center">
-          <h1 className="text-[30px] md:text-[33px] lg:text-[37px] xl:text-[40px] 2xl:text-[42px] 3xl:text-[47px] 4xl:text-[51px] 5xl:text-[55px] text-center font-bold text-white leading-normal">
-            Swimming Pool <br className="block md:hidden"/> Installation in Toronto
-          </h1>
-          <p className="text-lg 5xl:text-[25px] font-normal leading-normal xl:leading-10 text-center text-white pt-[5px] xl:pt-[10px] 5xl:pt-[35px] pb-[25px] 5xl:pb-[45px]">
-            welcome to our luxury swimming pool <br className="block md:hidden"/> installation company in Toronto.
-          </p>
-
-          <button className="text-base 5xl:text-lg font-bold py-[6px] px-[20px] xl:py-[12px] xl:px-[25px] 5xl:py-[18px] 5xl:px-[31px] text-white leading-normal btn_bg">
-            <Link className="flex items-center gap-[15px] text-white" href="tel: +1(647) 449 9512">
-              Get an Estimate{" "}
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="8"
-                height="13"
-                viewBox="0 0 8 13"
-                fill="none"
-              >
-                <path
-                  d="M0 11.4265L4.59 6.83726L0 2.24799L1.42 0.838213L7.42 6.83726L1.42 12.8363L0 11.4265Z"
-                  fill="white"
-                />
-              </svg>
-            </Link>
+    <div className="banner__bg py-[62px] md:py-[75px] lg:py-[88px] xl:py-[101px] 2xl:py-[114px] 3xl:py-[127px] 4xl:py-[140px] 5xl:py-[158px]">
+      <div className="container h-full flex flex-col items-start justify-center">
+        <h1 className="text-[30px] md:text-[34px] lg:text-[38px] xl:text-[42px] 2xl:text-[46px] 3xl:text-[50px] 4xl:text-[52px] 5xl:text-[55px] font-bold text-white leading-normal">
+          Basement Renovation <br /> in Toronto
+        </h1>
+        <p className="text-lg font-normal text-white leading-normal">
+          Prime Basement Renovations offers top-notch basement renovation in{" "}
+          <br /> Toronto, enhancing your home with style, function, and quality{" "}
+          <br /> finishes.
+        </p>
+        <div className="mt-[35px]">
+          <button className="flex items-center gap-[10px] py-[15px] px-[12px] text-base font-bold text-white leading-normal rounded-[8px] bg-primary-700">
+            <Link className="text-white" href="tel:647-449-9512">Get a Free Quote</Link>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="22"
+              height="12"
+              viewBox="0 0 22 12"
+              fill="none"
+            >
+              <path
+                d="M1 5.25C0.585786 5.25 0.25 5.58579 0.25 6C0.25 6.41421 0.585786 6.75 1 6.75V5.25ZM21.5303 6.53033C21.8232 6.23744 21.8232 5.76256 21.5303 5.46967L16.7574 0.696699C16.4645 0.403806 15.9896 0.403806 15.6967 0.696699C15.4038 0.989593 15.4038 1.46447 15.6967 1.75736L19.9393 6L15.6967 10.2426C15.4038 10.5355 15.4038 11.0104 15.6967 11.3033C15.9896 11.5962 16.4645 11.5962 16.7574 11.3033L21.5303 6.53033ZM1 6.75H21V5.25H1V6.75Z"
+                fill="white"
+              />
+            </svg>
           </button>
         </div>
       </div>
