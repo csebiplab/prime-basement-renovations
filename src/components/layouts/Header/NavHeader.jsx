@@ -18,191 +18,102 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import UpperNavbar from "./UpperNavbar";
-import WebBrandSvg from "@/components/ui/WebBrandSvg";
 import "./NavHeader.css";
 
-const our__location__menuItem = [
-  // {
-  //   title: "Pool Installation Services In Barrie",
-  //   route: "/pool-installation-services-in-barrie",
-  // },
-];
-
-function OurLocationMenu() {
-  const [isMenuOpen, setIsMenuOpen] = React.useState(false);
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
-  const renderItems = (data = []) => {
-    return data?.map(({ route, title }, key) => (
-      <Link href={route} key={key}>
-        <MenuItem className="rounded-md">
-          <Typography color="blue-gray">{title}</Typography>
-        </MenuItem>
-      </Link>
-    ));
-  };
-
-  return (
-    <>
-      <Menu
-        open={isMenuOpen}
-        handler={setIsMenuOpen}
-        offset={{ mainAxis: 20 }}
-        placement="bottom"
-        allowHover={true}
-        className="bg-gray-100"
-      >
-        <MenuHandler>
-          <div
-            className="font-medium text-lg"
-            aria-expanded={isMenuOpen} // Dynamically set the value based on the menu state
-            aria-haspopup="true" // Indicating this element triggers a popup
-            id=":RrarjtaH2:"
-            role="button"
-          >
-            <ListItem
-              className="flex items-center text-lg text-dark-500 font-bold px-1 lg:px-4 xl:px-5 2xl:px-6 -mt-[9px]"
-              selected={isMenuOpen || isMobileMenuOpen}
-              onClick={() => setIsMobileMenuOpen((cur) => !cur)}
-            >
-              Location
-              <ChevronDownIcon
-                strokeWidth={2.5}
-                className={`hidden h-3 w-3 transition-transform lg:block ${
-                  isMenuOpen ? "rotate-180" : ""
-                }`}
-              />
-              <ChevronDownIcon
-                strokeWidth={2.5}
-                className={`block h-3 w-3 transition-transform lg:hidden ${
-                  isMobileMenuOpen ? "rotate-180" : ""
-                }`}
-              />
-            </ListItem>
-          </div>
-        </MenuHandler>
-        <MenuList className="!p-0 hidden max-w-[400px] w-full lg:block outline-0 bg-gray-100">
-          <div className="!p-0 !border-none !outline-none w-full">
-            <div className="w-full">
-              <ul className="w-full flex justify-center">
-                <li>{renderItems(our__location__menuItem)}</li>
-              </ul>
-            </div>
-          </div>
-        </MenuList>
-
-        {isMobileMenuOpen ? (
-          <>
-            <div className="block lg:hidden">
-              <Collapse open={isMobileMenuOpen}>
-                <ul>
-                  <li>{renderItems(our__location__menuItem)}</li>
-                </ul>
-                <hr className="my-1" />
-              </Collapse>
-            </div>
-          </>
-        ) : (
-          ""
-        )}
-      </Menu>
-    </>
-  );
-}
-
 // our services nav menu
-const our_service_menu_items = {
-  interior: [
-    // {
-    //   title: "Swimming Pool Installation In Vaughan",
-    //   route: "/swimming-pool-installation-in-vaughan",
-    // },
-  ],
-};
+// const our_service_menu_items = {
+//   interior: [
+//     // {
+//     //   title: "Swimming Pool Installation In Vaughan",
+//     //   route: "/swimming-pool-installation-in-vaughan",
+//     // },
+//   ],
+// };
 
-function OurServiceManu() {
-  const [isMenuOpen, setIsMenuOpen] = React.useState(false);
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
-  const renderItems = (data = []) => {
-    return data?.map(({ route, title }, key) => (
-      <Link href={route} key={key}>
-        <MenuItem className="rounded-md">
-          <Typography color="blue-gray">{title}</Typography>
-        </MenuItem>
-      </Link>
-    ));
-  };
+// function OurServiceManu() {
+//   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+//   const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
+//   const renderItems = (data = []) => {
+//     return data?.map(({ route, title }, key) => (
+//       <Link href={route} key={key}>
+//         <MenuItem className="rounded-md">
+//           <Typography color="blue-gray">{title}</Typography>
+//         </MenuItem>
+//       </Link>
+//     ));
+//   };
 
-  return (
-    <>
-      <Menu
-        open={isMenuOpen}
-        handler={setIsMenuOpen}
-        offset={{ mainAxis: 20 }}
-        placement="bottom"
-        allowHover={true}
-        className="bg-gray-100"
-      >
-        <MenuHandler>
-          <div
-            className="font-medium text-lg"
-            aria-expanded={isMenuOpen} // Dynamically set the value based on the menu state
-            aria-haspopup="true" // Indicating this element triggers a popup
-            id=":RrarjtaH2:"
-            role="button"
-          >
-            <ListItem
-              className="flex items-center text-lg text-dark-500 font-bold px-1 lg:px-4 xl:px-5 2xl:px-6 -mt-[9px]"
-              selected={isMenuOpen || isMobileMenuOpen}
-              onClick={() => setIsMobileMenuOpen((cur) => !cur)}
-            >
-              Our Services
-              <ChevronDownIcon
-                strokeWidth={2.5}
-                className={`hidden h-3 w-3 transition-transform lg:block ${
-                  isMenuOpen ? "rotate-180" : ""
-                }`}
-              />
-              <ChevronDownIcon
-                strokeWidth={2.5}
-                className={`block h-3 w-3 transition-transform lg:hidden ${
-                  isMobileMenuOpen ? "rotate-180" : ""
-                }`}
-              />
-            </ListItem>
-          </div>
-        </MenuHandler>
-        <MenuList className="hidden max-w-[100vw] w-screen lg:block border-0 outline-0 bg-gray-100">
-          <div className="container grid grid-cols-3 gap-y-2">
-            <div>
-              <h3 className="mb-1 text-primary-600 font-semibold">Interior</h3>
-              <ul>
-                <li>{renderItems(our_service_menu_items.interior)}</li>
-              </ul>
-            </div>
-          </div>
-        </MenuList>
+//   return (
+//     <>
+//       <Menu
+//         open={isMenuOpen}
+//         handler={setIsMenuOpen}
+//         offset={{ mainAxis: 20 }}
+//         placement="bottom"
+//         allowHover={true}
+//         className="bg-gray-100"
+//       >
+//         <MenuHandler>
+//           <div
+//             className="font-medium text-lg"
+//             aria-expanded={isMenuOpen} // Dynamically set the value based on the menu state
+//             aria-haspopup="true" // Indicating this element triggers a popup
+//             id=":RrarjtaH2:"
+//             role="button"
+//           >
+//             <ListItem
+//               className="flex items-center text-lg text-dark-500 font-bold px-1 lg:px-4 xl:px-5 2xl:px-6 -mt-[9px]"
+//               selected={isMenuOpen || isMobileMenuOpen}
+//               onClick={() => setIsMobileMenuOpen((cur) => !cur)}
+//             >
+//               Our Services
+//               <ChevronDownIcon
+//                 strokeWidth={2.5}
+//                 className={`hidden h-3 w-3 transition-transform lg:block ${
+//                   isMenuOpen ? "rotate-180" : ""
+//                 }`}
+//               />
+//               <ChevronDownIcon
+//                 strokeWidth={2.5}
+//                 className={`block h-3 w-3 transition-transform lg:hidden ${
+//                   isMobileMenuOpen ? "rotate-180" : ""
+//                 }`}
+//               />
+//             </ListItem>
+//           </div>
+//         </MenuHandler>
+//         <MenuList className="hidden max-w-[100vw] w-screen lg:block border-0 outline-0 bg-gray-100">
+//           <div className="container grid grid-cols-3 gap-y-2">
+//             <div>
+//               <h3 className="mb-1 text-primary-600 font-semibold">Interior</h3>
+//               <ul>
+//                 <li>{renderItems(our_service_menu_items.interior)}</li>
+//               </ul>
+//             </div>
+//           </div>
+//         </MenuList>
 
-        {isMobileMenuOpen ? (
-          <>
-            <div className="block lg:hidden">
-              <Collapse open={isMobileMenuOpen}>
-                <h4 className="text-primary-600 mb-1 font-semibold">
-                  Interior
-                </h4>
-                <ul>
-                  <li>{renderItems(our_service_menu_items.interior)}</li>
-                </ul>
-                <hr className="my-1" />
-              </Collapse>
-            </div>
-          </>
-        ) : (
-          ""
-        )}
-      </Menu>
-    </>
-  );
-}
+//         {isMobileMenuOpen ? (
+//           <>
+//             <div className="block lg:hidden">
+//               <Collapse open={isMobileMenuOpen}>
+//                 <h4 className="text-primary-600 mb-1 font-semibold">
+//                   Interior
+//                 </h4>
+//                 <ul>
+//                   <li>{renderItems(our_service_menu_items.interior)}</li>
+//                 </ul>
+//                 <hr className="my-1" />
+//               </Collapse>
+//             </div>
+//           </>
+//         ) : (
+//           ""
+//         )}
+//       </Menu>
+//     </>
+//   );
+// }
 
 // our services nav list end
 function NavList() {
@@ -215,14 +126,14 @@ function NavList() {
         color="blue-gray"
         className="font-medium rounded-full text-sm lg:text-sm xl:text-base 2xl:text-lg"
       >
-        <ListItem className="flex items-start md:items-center text-lg text-dark-500 font-bold px-1 lg:px-4 xl:px-5 2xl:px-6">
-          About Us
+        <ListItem className="flex items-start md:items-center text-base text-black font-bold leading-normal px-1 lg:px-4 xl:px-5 2xl:px-6">
+        Design and Planning
         </ListItem>
       </Typography>
 
-      <div className="mt-[6px]">
+      {/* <div className="mt-[6px]">
         <OurServiceManu />
-      </div>
+      </div> */}
 
       <Typography
         as={Link}
@@ -231,8 +142,8 @@ function NavList() {
         color="blue-gray"
         className="font-medium rounded-full text-sm md:text-sm xl:text-base 2xl:text-lg"
       >
-        <ListItem className="flex items-start md:items-center text-lg text-dark-500 font-bold px-1 lg:px-4 xl:px-5 2xl:px-6">
-          Blog
+        <ListItem className="flex items-start md:items-center text-base text-black font-bold leading-normal px-1 lg:px-4 xl:px-5 2xl:px-6">
+        Waterproofing
         </ListItem>
       </Typography>
       <Typography
@@ -242,14 +153,10 @@ function NavList() {
         color="blue-gray"
         className="font-medium rounded-full text-sm md:text-sm xl:text-base 2xl:text-lg"
       >
-        <ListItem className="flex items-start md:items-center text-lg text-dark-500 font-bold px-1 lg:px-4 xl:px-5 2xl:px-6">
-          Projects
+        <ListItem className="flex items-start md:items-center text-base text-black font-bold leading-normal px-1 lg:px-4 xl:px-5 2xl:px-6">
+        Plumbing Installation
         </ListItem>
       </Typography>
-
-      <div className="mt-[6px] ">
-        <OurLocationMenu />
-      </div>
 
       <Typography
         as={Link}
@@ -258,8 +165,8 @@ function NavList() {
         color="blue-gray"
         className="font-medium rounded-full text-sm md:text-sm xl:text-base 2xl:text-lg"
       >
-        <ListItem className="flex items-start md:items-center text-lg text-dark-500 font-bold px-1 lg:px-4 xl:px-5 2xl:px-6">
-          Contact Us
+        <ListItem className="flex items-start md:items-center text-base text-black font-bold leading-normal px-1 lg:px-4 xl:px-5 2xl:px-6">
+        Flooring Installation
         </ListItem>
       </Typography>
     </List>
@@ -283,7 +190,13 @@ export function NavHeader() {
           <Navbar className="container rounded-none py-2 shadow-none max-w-full">
             <div className="flex items-center justify-between text-blue-gray-900">
               <Link href="/" aria-label="Home">
-                <WebBrandSvg />
+                <Image
+                  src="/assets/primeBasementHomePage/nav__logo.png"
+                  alt="nav logo"
+                  width={90}
+                  height={60}
+                  className="w-full"
+                />
                 <span className="sr-only">Home</span>
               </Link>
               <div className="hidden lg:block">
@@ -291,22 +204,22 @@ export function NavHeader() {
               </div>
 
               <div className="flex gap-x-4">
-                <div className="flex items-center gap-x-6 md:gap-x-7 lg:gap-x-8 pr-2">
-                  <div className="flex items-center gap-2">
-                    <Image
-                      src="/assets/images/phone-call.png"
-                      width={24}
-                      height={24}
-                      alt="canada leaf"
-                      className="w-[24px] h-[24px]"
-                    />
-                    <a
-                      href="tel:+1(647) 449 9512"
-                      className="text-secondary-700 font-bold xs:text-base sm:text-xl md:text-2xl 2xl:text-3xl"
+                <div className="">
+                  <button className="flex items-center gap-[10px] py-[15px] px-[12px] text-base font-bold text-white leading-normal rounded-[8px] bg-primary-700">
+                    Get a Free Quote{" "}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="22"
+                      height="12"
+                      viewBox="0 0 22 12"
+                      fill="none"
                     >
-                      +1(647) 449 9512
-                    </a>
-                  </div>
+                      <path
+                        d="M1 5.25C0.585786 5.25 0.25 5.58579 0.25 6C0.25 6.41421 0.585786 6.75 1 6.75V5.25ZM21.5303 6.53033C21.8232 6.23744 21.8232 5.76256 21.5303 5.46967L16.7574 0.696699C16.4645 0.403806 15.9896 0.403806 15.6967 0.696699C15.4038 0.989593 15.4038 1.46447 15.6967 1.75736L19.9393 6L15.6967 10.2426C15.4038 10.5355 15.4038 11.0104 15.6967 11.3033C15.9896 11.5962 16.4645 11.5962 16.7574 11.3033L21.5303 6.53033ZM1 6.75H21V5.25H1V6.75Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </button>
                 </div>
                 <IconButton
                   variant="text"
@@ -340,7 +253,7 @@ export function NavHeader() {
       >
         <div className="mb-6 flex items-center justify-between">
           <Typography variant="p" color="blue-gray">
-            Easy Pools
+            Prime Basement Renovation
           </Typography>
           <IconButton
             variant="text"

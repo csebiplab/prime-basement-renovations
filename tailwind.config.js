@@ -32,8 +32,8 @@ module.exports = withMT({
           200: "#99D0CE",
           300: "#73BEBC",
           400: "#4CACAA",
-          500: "#188B89",  // Default
-          600: "#00787A",  // Darker variant for better contrast
+          500: "#6C6C6C",  // Default
+          600: "#DF1F26",  // Darker variant for better contrast
           700: "#FF3100",
           800 : "#905C4C"
         },

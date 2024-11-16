@@ -123,7 +123,7 @@ export default function RootLayout({ children }) {
         {/* <!-- End Google Tag Manager (noscript) --> */}
 
         <>
-          {/* <NavHeader /> */}
+          <NavHeader />
         </>
         <>
           {children}
