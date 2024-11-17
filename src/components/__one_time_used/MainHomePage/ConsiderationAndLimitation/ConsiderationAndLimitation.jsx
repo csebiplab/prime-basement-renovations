@@ -107,9 +107,10 @@ const ConsiderationAndLimitation = () => {
             alt="consideration image"
             width={334}
             height={669}
+            className="h-full"
           />
         </div>
-        <div className="md:col-span-2 border-2 border-bg-primary-300">
+        <div className="md:col-span-2 border-2 border-bg-primary-300 mr-3">
           <div>
             <p className="text-[20px] font-bold text-black leading-normal text-center py-[13px]">
               Consideration Factors
@@ -135,7 +136,7 @@ const ConsiderationAndLimitation = () => {
           <div className="rounded-l-[50px] rounded-tr-[0px] bg-gradient-to-b from-[#FF3100] to-[#931C00]" />
         </div>
 
-        <div className="md:col-span-2 border-2 border-bg-primary-300">
+        <div className="md:col-span-2 border-2 border-bg-primary-300 ml-3">
           <div>
             <p className="text-[20px] font-bold text-black leading-normal text-center py-[13px]">
               Limitation Factors
@@ -165,6 +166,7 @@ const ConsiderationAndLimitation = () => {
             alt="consideration image"
             width={334}
             height={669}
+            className="h-full"
           />
         </div>
       </div>
