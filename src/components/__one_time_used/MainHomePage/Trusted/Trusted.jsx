@@ -7,10 +7,10 @@ const Trusted  = () => {
     return (
         <div className='container padding__top'>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-[15px] xl:gap-[36px]'>
-                <div className='order-2 md:col-span-1'>
+                <div className='order-1 md:order-2 md:col-span-1'>
                     <Image src="/assets/primeBasementHomePage/trusted.png" alt="trusted" width={620} height={767} className='w-full'/>
                 </div>
-                <div className='order-1 md:col-span-1'>
+                <div className='order-2 md:order-1 md:col-span-1'>
                     <div className='flex justify-center md:justify-start items-center '>
                         <HeadingIcon text={headingIconText.trusted__IconText}/>
                     </div>

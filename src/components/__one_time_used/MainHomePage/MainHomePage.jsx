@@ -79,11 +79,11 @@ const MainHomePage = () => {
       </section>
 
       <section>
-        <WhyChooseUs />
+        <Benefits />
       </section>
 
       <section>
-        <ReadyToStart />
+        <Review />
       </section>
 
       <section>
@@ -91,12 +91,18 @@ const MainHomePage = () => {
       </section>
 
       <section>
-        <Benefits />
+        <WhyChooseUs />
       </section>
 
       <section>
-        <Review />
+        <ReadyToStart />
       </section>
+
+      
+
+      
+
+      
 
       <section>
         <Faq />

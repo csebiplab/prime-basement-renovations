@@ -58,7 +58,7 @@ const ProjectGallery = ({ bHeading = "empty" }) => {
             <HeadingIcon text={headingIconText.gallery__IconText} />
             <div className="">
               <h2 className="text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-black text-center leading-normal">
-              Gallery Of Our Basement Renovation Contractors Toronto
+                Gallery Of Our Basement Renovation Contractors Toronto
               </h2>
             </div>
           </div>
@@ -86,18 +86,18 @@ const ProjectGallery = ({ bHeading = "empty" }) => {
                 <button
                   aria-label="See More"
                   onClick={handleLoadMore}
-                  className="w-2/3 flex items-center justify-center gap-2 text-base font-bold px-4 py-2 bg-secondary-700 text-white rounded-[20px]"
+                  className="w-2/3 flex items-center justify-center gap-2 text-base font-bold px-[41px] py-[15px] bg-primary-700 text-white rounded-[8px]"
                 >
                   See More
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="8"
-                    height="13"
-                    viewBox="0 0 8 13"
+                    width="22"
+                    height="12"
+                    viewBox="0 0 22 12"
                     fill="none"
                   >
                     <path
-                      d="M0 11.3066L4.59 6.71593L0 2.12527L1.42 0.715071L7.42 6.71593L1.42 12.7168L0 11.3066Z"
+                      d="M1 5.22461C0.585786 5.22461 0.25 5.5604 0.25 5.97461C0.25 6.38882 0.585786 6.72461 1 6.72461V5.22461ZM21.5303 6.50494C21.8232 6.21205 21.8232 5.73717 21.5303 5.44428L16.7574 0.671309C16.4645 0.378415 15.9896 0.378415 15.6967 0.671309C15.4038 0.964202 15.4038 1.43908 15.6967 1.73197L19.9393 5.97461L15.6967 10.2172C15.4038 10.5101 15.4038 10.985 15.6967 11.2779C15.9896 11.5708 16.4645 11.5708 16.7574 11.2779L21.5303 6.50494ZM1 6.72461H21V5.22461H1V6.72461Z"
                       fill="white"
                     />
                   </svg>

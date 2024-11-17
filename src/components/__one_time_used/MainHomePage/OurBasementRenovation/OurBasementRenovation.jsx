@@ -71,7 +71,7 @@ const OurBasementRenovation = () => {
 
         {/* Our Renovators Do's part  */}
         <div className="flex justify-center items-center my-[25px]">
-            <buttton className="btn__first text-[22px] 5xl:text-[25px] font-bold leading-normal text-white text-center py-[14px] 5xl:py-[17px] px-[50px] lg:px-[140px] 5xl:px-[170px]">Our Basement Renovation Contractors Do's</buttton>
+            <buttton className="btn__first text-[20px] 5xl:text-[25px] font-bold leading-normal text-white text-center py-[4px] md:py-[10px] 5xl:py-[17px] px-[50px] lg:px-[140px] 5xl:px-[170px]">Our Basement Renovation Contractors Do's</buttton>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-[15px]">
             {
@@ -86,7 +86,7 @@ const OurBasementRenovation = () => {
 
         {/* Our Renovators Don’ts part  */}
         <div className="flex justify-center items-center my-[25px]">
-            <buttton className="btn__second text-[22px] 5xl:text-[25px] font-bold leading-normal text-white text-center py-[14px] 5xl:py-[17px] px-[50px] lg:px-[140px] 5xl:px-[170px]">Our Basement Renovation Contractors Don'ts</buttton>
+            <buttton className="btn__second text-[20px] 5xl:text-[25px] font-bold leading-normal text-white text-center py-[4px] md:py-[10px] 5xl:py-[17px] px-[50px] lg:px-[140px] 5xl:px-[170px]">Our Basement Renovation Contractors Don'ts</buttton>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-[15px]">
             {

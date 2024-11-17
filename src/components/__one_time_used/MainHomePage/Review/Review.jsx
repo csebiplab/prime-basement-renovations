@@ -122,6 +122,7 @@ const Review = () => {
                 alt="glitz floor map"
                 width={306}
                 height={655}
+                className='h-full'
               />
             </div>
             <div className="md:col-span-3 right__side__bg py-[30px] md:py-[15px] px-[7px] md:px-[30px]">
@@ -184,7 +185,7 @@ const Review = () => {
                   {/* first div  */}
                   <div className="flex items-center gap-[10px]">
                     <Image
-                      src="/assets/glitz/icons/google.png"
+                      src="/assets/primeBasementHomePage/google.png"
                       alt="google logo"
                       width={198}
                       height={67}
@@ -201,7 +202,7 @@ const Review = () => {
                       5.0
                     </p>
                     <Image
-                      src="/assets/glitz/icons/orange_five_star.png"
+                      src="/assets/primeBasementHomePage/orange_five_star.png"
                       alt="five star icon"
                       width={152}
                       height={23}

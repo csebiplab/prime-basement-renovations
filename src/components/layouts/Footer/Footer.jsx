@@ -22,7 +22,7 @@ const Footer = () => {
           <div className="">
             <div className="grid grid-cols-1 lg:grid-cols-4 gap-[17px] justify-center">
               <div className="w-full lg:w-auto">
-                <div className="mx-auto flex justify-center md:justify-normal">
+                <div className="mx-auto flex justify-start">
                   <Image
                     src="/assets/primeBasementHomePage/footer__logo.png"
                     alt="footer logo"
@@ -30,14 +30,14 @@ const Footer = () => {
                     height={88}
                   />
                 </div>
-                <p className="text-black py-6 leading-[200%] text-center md:text-start">
+                <p className="text-black py-6 leading-[200%] text-start">
                   Trust our professional basement renovation contractors in
                   Toronto to transform your basement into a beautiful and
                   functional space you'll love for years. Contact us today to
                   get started!
                 </p>
                 {/* social icon */}
-                <div className="flex items-center gap-[15px]">
+                <div className="flex items-center justify-start gap-[15px]">
                   {
                     socialIcons?.map((icon, index)=>{
                       return <div key={index} className="">
@@ -52,7 +52,7 @@ const Footer = () => {
               {footerLinks.map((category, index) => (
                 <div
                   key={index}
-                  className={`mt-5 md:mt-0 text-center md:text-start ${
+                  className={`mt-5 md:mt-0 text-start ${
                     category.cat === "News" ? "justify-self-center" : ""
                   }`}
                 >
@@ -73,7 +73,7 @@ const Footer = () => {
                 </div>
               ))}
 
-              <div className="w-full lg:w-auto text-center md:text-start">
+              <div className="w-full lg:w-auto text-start">
                 <p className="text-black !text-xl mb-5 font-bold">Contact Us</p>
 
                 <ul className="">
@@ -138,17 +138,17 @@ const Footer = () => {
                 <div className="block md:hidden">
                   <div className="h-[1px] bg-[#8E8E8E] w-full mt-9 mb-4" />
                   <div className="text-center lg:text-left">
-                    <p className="text-sm lg:text-base text-white">
+                    <p className="text-sm lg:text-base text-black">
                     © All Copyright 2024 by Prime Basement Renovations
                     </p>
                     <ul className="text-sm lg:text-base flex justify-evenly gap-2 mt-4">
                       <li className="text-white">
-                        <Link href="/" className="text-white">
+                        <Link href="/" className="text-black">
                           Terms & Condition
                         </Link>
                       </li>
                       <li className="text-white">
-                        <Link href="/" className="text-white">
+                        <Link href="/" className="text-black">
                           Privacy Policy
                         </Link>
                       </li>

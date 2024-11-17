@@ -127,7 +127,7 @@ function NavList() {
         className="font-medium rounded-full text-sm lg:text-sm xl:text-base 2xl:text-lg"
       >
         <ListItem className="flex items-start md:items-center text-base text-black font-bold leading-normal px-1 lg:px-4 xl:px-5 2xl:px-6">
-        Design and Planning
+          Design and Planning
         </ListItem>
       </Typography>
 
@@ -143,7 +143,7 @@ function NavList() {
         className="font-medium rounded-full text-sm md:text-sm xl:text-base 2xl:text-lg"
       >
         <ListItem className="flex items-start md:items-center text-base text-black font-bold leading-normal px-1 lg:px-4 xl:px-5 2xl:px-6">
-        Waterproofing
+          Waterproofing
         </ListItem>
       </Typography>
       <Typography
@@ -154,7 +154,7 @@ function NavList() {
         className="font-medium rounded-full text-sm md:text-sm xl:text-base 2xl:text-lg"
       >
         <ListItem className="flex items-start md:items-center text-base text-black font-bold leading-normal px-1 lg:px-4 xl:px-5 2xl:px-6">
-        Plumbing Installation
+          Plumbing Installation
         </ListItem>
       </Typography>
 
@@ -166,7 +166,7 @@ function NavList() {
         className="font-medium rounded-full text-sm md:text-sm xl:text-base 2xl:text-lg"
       >
         <ListItem className="flex items-start md:items-center text-base text-black font-bold leading-normal px-1 lg:px-4 xl:px-5 2xl:px-6">
-        Flooring Installation
+          Flooring Installation
         </ListItem>
       </Typography>
     </List>
@@ -184,10 +184,16 @@ export function NavHeader() {
 
   return (
     <>
+      <div className="block md:hidden">
+        <p className="text-sm font-normal leading-normal text-center text-black pt-1">
+          For <strong className="font-bold">premium basement renovation</strong>{" "}
+          in <span className="text-primary-600 font-bold">Toronto</span>
+        </p>
+      </div>
       <UpperNavbar />
       <header className="sticky top-0 z-50">
         <div className="custom-container main__nav">
-          <Navbar className="container rounded-none py-2 shadow-none max-w-full">
+          <Navbar className="container rounded-none py-1 shadow-none max-w-full">
             <div className="flex items-center justify-between text-blue-gray-900">
               <Link href="/" aria-label="Home">
                 <Image
@@ -204,9 +210,11 @@ export function NavHeader() {
               </div>
 
               <div className="flex gap-x-4">
-                <div className="">
+                <div className="hidden md:block">
                   <button className="flex items-center gap-[10px] py-[15px] px-[12px] text-base font-bold text-white leading-normal rounded-[8px] bg-primary-700">
-                  <Link className="text-white" href="tel:647-449-9512">Get a Free Quote</Link>
+                    <Link className="text-white" href="tel:647-449-9512">
+                      Get a Free Quote
+                    </Link>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="22"
@@ -232,10 +240,10 @@ export function NavHeader() {
                     <XMarkIcon className="h-6 w-6" strokeWidth={2} />
                   ) : (
                     <Image
-                      src="/assets/projects/images/nenu-bar.png"
+                      src="/assets/primeBasementHomePage/menu_bar.png"
                       alt="menu bar"
-                      width={20}
-                      height={20}
+                      width={39}
+                      height={39}
                     />
                   )}
                   <span className="sr-only">Menu</span>

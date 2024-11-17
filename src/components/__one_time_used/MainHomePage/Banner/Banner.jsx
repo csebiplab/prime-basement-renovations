@@ -11,8 +11,8 @@ const Banner = () => {
         </h1>
         <p className="text-lg font-normal text-white leading-normal">
           Prime Basement Renovations offers top-notch basement renovation in{" "}
-          <br /> Toronto, enhancing your home with style, function, and quality{" "}
-          <br /> finishes.
+          <br className="hidden md:block"/> Toronto, enhancing your home with style, function, and quality{" "}
+          <br className="hidden md:block" /> finishes.
         </p>
         <div className="mt-[35px]">
           <button className="flex items-center gap-[10px] py-[15px] px-[12px] text-base font-bold text-white leading-normal rounded-[8px] bg-primary-700">
