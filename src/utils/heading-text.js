@@ -19,23 +19,6 @@ export const headingIconText = {
     review__IconText : "Reviews",
     contactNow__IconText : "Contact Now",
     contactUs__IconText : "Get Consultant",
-
-
-    leadingToronto__IconText : "Leading Toronto Swimming Pool",
-    trustedPartner__IconText : "Trusted Partner",
-    designAndCustomization__IconText : "Design and Customization",
-    materialsAndEquipment__IconText : "Materials and Equipment",
-    specialists__IconText : "Specialists",
-    installationServices__IconText : "Installation Services",
-    poolComparison__IconText : "Pool Comparison",
-   
-    considerationsLimitations__IconText : "Considerations & Limitations",
-    
-    costFactors__IconText : "Cost Factors",
-    
-    hireForInstallation__IconText : "Hire For Installation Services",
-    joinWithUs__IconText : "Join With Us",
-    
-    
+    considerationAndLimitation__IconText : "Consideration & Limitation",
 
 }

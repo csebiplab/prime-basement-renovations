@@ -21,6 +21,7 @@ import OurBasementRenovation from "./OurBasementRenovation/OurBasementRenovation
 import Review from "./Review/Review";
 import BasementRenovationsContractors from "./BasementRenovationsContractors/BasementRenovationsContractors";
 import ContactNow from "./ContactNow/ContactNow";
+import ConsiderationAndLimitation from "./ConsiderationAndLimitation/ConsiderationAndLimitation";
 const MainHomePage = () => {
   return (
     <div className=" custom-container">
@@ -51,6 +52,10 @@ const MainHomePage = () => {
 
       <section>
         <WorkingProcess />
+      </section>
+
+      <section>
+        <ConsiderationAndLimitation />
       </section>
 
       <section>
