@@ -18,6 +18,7 @@ export const headingIconText = {
     benefits__IconText : "Benefits",
     review__IconText : "Reviews",
     contactNow__IconText : "Contact Now",
+    contactUs__IconText : "Get Consultant",
 
 
     leadingToronto__IconText : "Leading Toronto Swimming Pool",

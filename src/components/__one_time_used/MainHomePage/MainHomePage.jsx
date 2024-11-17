@@ -102,12 +102,13 @@ const MainHomePage = () => {
       </section>
 
       <section>
-        <ContactNow />
+        <ContactUs/>
       </section>
 
-      {/* <section>
-        <ContactUs/>
-      </section> */}
+      <section>
+        <ContactNow />
+      </section>
+      
     </div>
   );
 };

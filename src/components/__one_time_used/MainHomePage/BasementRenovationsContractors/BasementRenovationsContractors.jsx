@@ -160,7 +160,7 @@ const TABLE_ROWS1 = [
 
 const BasementRenovationsContractors = () => {
   return (
-    <div className="container padding__top swimmingPoolContractor__bg">
+    <div className="container padding__top">
       <div className="flex flex-col items-center justify-center">
         <HeadingIcon text={headingIconText.ourBasementRenovation__IconText} />
         <h2 className="text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-black text-center leading-normal">
