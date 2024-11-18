@@ -24,7 +24,7 @@ const breakpoints = {
     spaceBetween: 20,
   },
   1024: {
-    slidesPerView: 2,
+    slidesPerView: 3,
     spaceBetween: 20,
   },
 };
@@ -120,7 +120,7 @@ const Review = () => {
         </div>
         <div>
           <div className=" grid grid-cols-1 md:grid-cols-4 gap-[35px]">
-            <div className="hidden md:block md:col-span-1">
+            {/* <div className="hidden md:block md:col-span-1">
               <Image
                 src="/assets/primeBasementHomePage/review_location.png"
                 alt="glitz floor map"
@@ -128,8 +128,8 @@ const Review = () => {
                 height={655}
                 className="h-full"
               />
-            </div>
-            <div className="md:col-span-3 right__side__bg py-[30px] md:py-[15px] px-[7px] md:px-[30px]">
+            </div> */}
+            <div className="md:col-span-4 right__side__bg py-[30px] md:py-[15px] px-[7px] md:px-[30px]">
               {/* medium device  */}
               <div className="hidden md:block">
                 <div className="flex items-center justify-between">
@@ -306,7 +306,7 @@ const Review = () => {
               {/* iframe part  */}
               <div>
                 <iframe
-                  className="w-[351px] md:w-[650px] 5xl:w-[854px] h-[232px] md:h-[241px] mx-auto"
+                  className="w-full h-[232px] md:h-[241px] mx-auto"
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2879.3609083991623!2d-79.49393322442658!3d43.806872771095186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2e8c97ed514d%3A0xcc49d389c7b5d8b5!2s163%20Bowes%20Rd%2C%20Concord%2C%20ON%20L4K%201H3%2C%20Canada!5e0!3m2!1sen!2sbd!4v1731687155797!5m2!1sen!2sbd"
                   width="854"
                   height="241"

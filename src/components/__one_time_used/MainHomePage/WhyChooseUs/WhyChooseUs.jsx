@@ -123,7 +123,7 @@ const WhyChooseUs = () => {
 
             <div className="w-full my-6 md:my-0 cart1">
               <p className="title-bg text-center 2xl:py-[15px] py-[14px] text-primary-800 text-base md:text-lg font-bold">
-              Usual Basement Renovation Contractors
+              Usual Basement Renovation <br/> Contractors
               </p>
               <div className="grid grid-rows-8 3xl:py-[35px] py-[20px] px-[20px] 2xl:text-[16px] lg:text-sm xs:text-[9px]">
                 {usualPool?.map((usual, index) => (

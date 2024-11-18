@@ -59,9 +59,7 @@ const WorkingProcess = () => {
   return (
     <div>
       <div
-        data-aos="flip-left"
-        data-aos-easing="ease-out-cubic"
-        data-aos-duration="2000"
+        data-aos="zoom-in"
         className="container padding__top"
       >
         <div className="flex flex-col justify-center items-center">

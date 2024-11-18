@@ -67,9 +67,7 @@ const Benefits = () => {
   return (
     <div className=" ">
       <div
-        data-aos="flip-right"
-        data-aos-easing="ease-out-cubic"
-        data-aos-duration="2000"
+        data-aos="zoom-in"
         className="container padding__top"
       >
         <div className="!overflow-hidden">
