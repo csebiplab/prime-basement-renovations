@@ -4,15 +4,34 @@ const UpperNavbar = () => {
   return (
     <nav className="container py-2 bg__uppernav hidden md:block">
       <div className="flex items-center justify-between">
-        <p className="text-base font-normal leading-normal text-black">
-          For <strong className="font-bold">premium basement renovation</strong> in <span className="text-primary-600 font-bold">Toronto</span>
-        </p>
+        <div className="w-1/3 flex items-center gap-[5px]">
+          <Image
+            src="/assets/primeBasementHomePage/icons/canada.png"
+            alt="canada icon"
+            width={24}
+            height={26}
+            className="w-[24px] h-[26px]"
+          />
+          <marquee className="w-full" direction="right">
+            <p className=" text-base font-normal leading-normal text-black">
+              For{" "}
+              <strong className="font-bold">premium basement renovation</strong>{" "}
+              in <span className="text-primary-600 font-bold">Toronto,</span> trust <strong>Prime Basement Renovations</strong> to create stylish, functional spaces tailored to your needs.
+            </p>
+          </marquee>
+        </div>
 
         <div className="flex items-center gap-[35px]">
           <ul className="flex items-center gap-[35px]">
-            <li className="text-base font-normal leading-normal text-primary-500 cursor-pointer">About Us</li>
-            <li className="text-base font-normal leading-normal text-primary-500 cursor-pointer">Gallery</li>
-            <li className="text-base font-normal leading-normal text-primary-500 cursor-pointer">Contact Us</li>
+            <li className="text-base font-normal leading-normal text-primary-500 cursor-pointer">
+              About Us
+            </li>
+            <li className="text-base font-normal leading-normal text-primary-500 cursor-pointer">
+              Gallery
+            </li>
+            <li className="text-base font-normal leading-normal text-primary-500 cursor-pointer">
+              Contact Us
+            </li>
           </ul>
           <div className="flex items-center gap-[5px]">
             <div>
@@ -30,8 +49,14 @@ const UpperNavbar = () => {
               </svg>
             </div>
             <div>
-              <p className="text-xs text-black font-normal leading-normal ">Service Support 24/7</p>
-              <p className="text-base font-bold leading-normal text-black"><Link className="text-black" href="tel:647-449-9512">647-449-9512</Link></p>
+              <p className="text-xs text-black font-normal leading-normal ">
+                Service Support 24/7
+              </p>
+              <p className="text-base font-bold leading-normal text-black">
+                <Link className="text-black" href="tel:647-449-9512">
+                  647-449-9512
+                </Link>
+              </p>
             </div>
           </div>
         </div>

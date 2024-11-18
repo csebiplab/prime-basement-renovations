@@ -224,7 +224,7 @@ const BasementRenovationsContractors = () => {
                         <h4 className="text-left pt-[15px] text-[22px] font-bold text-black leading-normal">
                           {title}
                         </h4>
-                        <p className="text-lg text-left font-normal leading-[25px] text-black">{desc}</p>
+                        <h3 className="text-lg text-left font-normal leading-[25px] text-black">{desc}</h3>
                       </Typography>
                     </td>
                     <td className="py-[4px] px-[17px] cart__bg">
@@ -294,7 +294,7 @@ const BasementRenovationsContractors = () => {
                         <h4 className="text-left pt-[15px] text-[22px] font-bold text-black leading-normal">
                           {title}
                         </h4>
-                        <p className="text-lg text-left font-normal leading-[25px] text-black">{desc}</p>
+                        <h3 className="text-lg text-left font-normal leading-[25px] text-black">{desc}</h3>
                       </Typography>
                     </td>
                     <td className="py-[4px] px-[17px] cart__bg">

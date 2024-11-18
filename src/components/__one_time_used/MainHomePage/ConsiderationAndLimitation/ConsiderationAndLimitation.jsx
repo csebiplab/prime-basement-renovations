@@ -112,9 +112,9 @@ const ConsiderationAndLimitation = () => {
         </div>
         <div className="md:col-span-2 border-2 border-bg-primary-300 mr-0 md:mr-3">
           <div>
-            <p className="text-[20px] font-bold text-black leading-normal text-center py-[13px]">
+            <h3 className="text-[20px] font-bold text-black leading-normal text-center py-[13px]">
               Consideration Factors
-            </p>
+            </h3>
             {considerationFactorData?.map((data) => {
               return (
                 <div
@@ -138,9 +138,9 @@ const ConsiderationAndLimitation = () => {
 
         <div className="md:col-span-2 border-2 border-bg-primary-300 ml-0 md:ml-3">
           <div>
-            <p className="text-[20px] font-bold text-black leading-normal text-center py-[13px]">
+            <h3 className="text-[20px] font-bold text-black leading-normal text-center py-[13px]">
               Limitation Factors
-            </p>
+            </h3>
             {limitationFactorData?.map((data) => {
               return (
                 <div
