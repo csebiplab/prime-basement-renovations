@@ -1,0 +1,20 @@
+.footer__bg {
+  /* width: 100%;
+  height: 100%;
+  background-image: url("/assets/images/footer__bg.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat : no-repeat; */
+  background: #E6E6E6;
+}
+
+.footer-bottom-bg {
+  background: #303030;
+}
+
+.social_icon_bg{
+  border-radius: 9999px;
+  background: linear-gradient(90deg, #000 0%, #666 100%);
+}
+
+/* Test code push */
