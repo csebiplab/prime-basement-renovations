@@ -169,7 +169,7 @@ const Footer = () => {
               WEBSITE DESIGN AND SEO BY :-
             </p>
             <Image
-              src="/assets/footer/gokundu-logo.png"
+              src="/assets/primeBasementHomePage/gokundu-logo.png"
               alt="Gokundo"
               width={141}
               height={36}

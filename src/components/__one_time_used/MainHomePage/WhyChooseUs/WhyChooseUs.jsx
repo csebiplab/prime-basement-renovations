@@ -132,7 +132,7 @@ const WhyChooseUs = () => {
                     className="flex gap-4 items-center leading-none"
                   >
                     <Image
-                      src="/assets/homePage/icons/x.png"
+                      src="/assets/primeBasementHomePage/icons/x.png"
                       alt="x"
                       width={20}
                       height={20}
@@ -161,7 +161,7 @@ const WhyChooseUs = () => {
                     className="flex gap-4 items-center leading-none  "
                   >
                     <Image
-                      src="/assets/homePage/icons/r.png"
+                      src="/assets/primeBasementHomePage/icons/r.png"
                       alt="r"
                       width={20}
                       height={20}
