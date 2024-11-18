@@ -1,6 +1,6 @@
 "use client";
-import HeadingIcon from '@/components/ui/HeadingIcon';
-import { headingIconText } from '@/utils/heading-text';
+import HeadingIcon from "@/components/ui/HeadingIcon";
+import { headingIconText } from "@/utils/heading-text";
 
 import Image from "next/image";
 import React from "react";
@@ -107,11 +107,15 @@ const reviewData = [
 const Review = () => {
   return (
     <div>
-      <div className="container padding__top">
+      <div
+        data-aos="zoom-in"
+        data-aos-anchor-placement="top-center"
+        className="container padding__top"
+      >
         <div className="flex flex-col justify-center items-center pb-[25px]">
-        <HeadingIcon text={headingIconText.review__IconText}/>
+          <HeadingIcon text={headingIconText.review__IconText} />
           <h2 className="text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-black text-center leading-normal">
-          Reviews For Basement Renovation
+            Reviews For Basement Renovation
           </h2>
         </div>
         <div>
@@ -122,7 +126,7 @@ const Review = () => {
                 alt="glitz floor map"
                 width={306}
                 height={655}
-                className='h-full'
+                className="h-full"
               />
             </div>
             <div className="md:col-span-3 right__side__bg py-[30px] md:py-[15px] px-[7px] md:px-[30px]">
@@ -301,7 +305,15 @@ const Review = () => {
 
               {/* iframe part  */}
               <div>
-                <iframe className="w-[351px] md:w-[650px] 5xl:w-[854px] h-[232px] md:h-[241px] mx-auto" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2879.3609083991623!2d-79.49393322442658!3d43.806872771095186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2e8c97ed514d%3A0xcc49d389c7b5d8b5!2s163%20Bowes%20Rd%2C%20Concord%2C%20ON%20L4K%201H3%2C%20Canada!5e0!3m2!1sen!2sbd!4v1731687155797!5m2!1sen!2sbd" width="854" height="241" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe
+                  className="w-[351px] md:w-[650px] 5xl:w-[854px] h-[232px] md:h-[241px] mx-auto"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2879.3609083991623!2d-79.49393322442658!3d43.806872771095186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2e8c97ed514d%3A0xcc49d389c7b5d8b5!2s163%20Bowes%20Rd%2C%20Concord%2C%20ON%20L4K%201H3%2C%20Canada!5e0!3m2!1sen!2sbd!4v1731687155797!5m2!1sen!2sbd"
+                  width="854"
+                  height="241"
+                  allowFullScreen=""
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
               </div>
             </div>
           </div>

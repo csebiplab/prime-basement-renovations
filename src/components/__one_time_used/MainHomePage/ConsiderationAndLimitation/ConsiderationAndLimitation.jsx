@@ -78,7 +78,7 @@ const limitationFactorData = [
 const ConsiderationAndLimitation = () => {
   return (
     <div className=" padding__top">
-      <div className="container flex flex-col items-center justify-center">
+      <div data-aos="zoom-in" className="container flex flex-col items-center justify-center">
         <HeadingIcon
           text={headingIconText.considerationAndLimitation__IconText}
         />
@@ -100,7 +100,7 @@ const ConsiderationAndLimitation = () => {
       </div>
 
       {/* cart part  */}
-      <div className="grid grid-cols-1 md:grid-cols-6 mt-[25px]">
+      <div data-aos="fade-up" className="grid grid-cols-1 md:grid-cols-6 mt-[25px]">
         <div className="md:col-span-1">
           <Image
             src="/assets/primeBasementHomePage/consideration1.png"

@@ -97,7 +97,7 @@ const easyPool = [
 const WhyChooseUs = () => {
   return (
     <div className="">
-      <div className="bg_vinylPool container padding__top">
+      <div data-aos="fade-up" className="bg_vinylPool container padding__top">
         <div className="shadow-sm md:mx-0 xs:mx-[35px] ">
           <div className=" grid md:grid-cols-3 2xl:gap-[40px] md:gap-[30px] ">
             

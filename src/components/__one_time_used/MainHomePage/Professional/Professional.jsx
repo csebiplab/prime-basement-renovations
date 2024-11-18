@@ -7,10 +7,10 @@ const Professional = () => {
     return (
         <div className='full__section_l_p pr-3 md:pr-0 padding__top'>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-[15px] xl:gap-[36px]'>
-                <div className='order-1 md:order-2 md:col-span-1'>
+                <div data-aos="fade-left" className='order-1 md:order-2 md:col-span-1'>
                     <Image src="/assets/primeBasementHomePage/professional.png" alt="professional" width={813} height={662} className='w-full'/>
                 </div>
-                <div className='order-2 md:order-1 md:col-span-1'>
+                <div data-aos="fade-right" className='order-2 md:order-1 md:col-span-1'>
                     <div className='flex justify-center md:justify-start items-center '>
                         <HeadingIcon text={headingIconText.professional__IconText}/>
                     </div>

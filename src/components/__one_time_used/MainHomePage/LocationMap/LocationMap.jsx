@@ -78,7 +78,7 @@ const locations = [
 const LocationMap = () => {
   return (
     <div>
-      <div className="custom-container padding__top">
+      <div data-aos="fade-up" className="custom-container padding__top">
         <div className="">
           <div className="mx-auto flex flex-col items-center justify-center ">
           <HeadingIcon text={headingIconText.serviceAreas__IconText}/>

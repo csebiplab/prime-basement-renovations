@@ -7,10 +7,10 @@ const Expert = () => {
     return (
         <div className='full__section_r_p pl-3 md:pl-0 padding__top'>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-[15px] xl:gap-[36px]'>
-                <div className='md:col-span-1'>
+                <div data-aos="fade-right" className='md:col-span-1'>
                     <Image src="/assets/primeBasementHomePage/expert.png" alt="expert" width={813} height={697} className='w-full'/>
                 </div>
-                <div className='md:col-span-1'>
+                <div data-aos="fade-left" className='md:col-span-1'>
                     <div className='flex justify-center md:justify-start items-center '>
                         <HeadingIcon text={headingIconText.expert__IconText}/>
                     </div>

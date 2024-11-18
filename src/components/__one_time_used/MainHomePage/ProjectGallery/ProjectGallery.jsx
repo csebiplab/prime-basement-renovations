@@ -52,7 +52,7 @@ const ProjectGallery = ({ bHeading = "empty" }) => {
 
   return (
     <div className="bg_swimmingPool">
-      <div className="custom-containe padding__top">
+      <div data-aos="zoom-in" className="custom-containe padding__top">
         <div className="container">
           <div className="flex flex-col justify-center items-center">
             <HeadingIcon text={headingIconText.gallery__IconText} />

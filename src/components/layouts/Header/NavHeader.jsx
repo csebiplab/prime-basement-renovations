@@ -197,7 +197,8 @@ export function NavHeader() {
             <div className="flex items-center justify-between text-blue-gray-900">
               <Link href="/" aria-label="Home">
                 <Image
-                  src="/assets/primeBasementHomePage/nav__logo.png"
+                  // src="/assets/primeBasementHomePage/nav__logo.png"
+                  src="/assets/primeBasementHomePage/footer__logo.png"
                   alt="nav logo"
                   width={90}
                   height={60}

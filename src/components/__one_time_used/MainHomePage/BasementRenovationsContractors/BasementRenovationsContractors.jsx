@@ -160,7 +160,7 @@ const TABLE_ROWS1 = [
 
 const BasementRenovationsContractors = () => {
   return (
-    <div className="container padding__top">
+    <div data-aos="fade-up" className="container padding__top">
       <div className="flex flex-col items-center justify-center">
         <HeadingIcon text={headingIconText.ourBasementRenovation__IconText} />
         <h2 className="text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-black text-center leading-normal">
@@ -203,9 +203,9 @@ const BasementRenovationsContractors = () => {
           </thead> */}
           <tbody>
             {TABLE_ROWS?.map(
-              ({ number, img, title, desc, vinyl, fiberglass }) => {
+              ({ number, id, img, title, desc, vinyl, fiberglass }) => {
                 return (
-                  <tr key={number}>
+                  <tr key={id}>
                     <td className="p-4 cart__bg">
                       {
                         img && <Image
@@ -273,9 +273,9 @@ const BasementRenovationsContractors = () => {
           </thead> */}
           <tbody>
             {TABLE_ROWS1?.map(
-              ({ number, img, title, desc, vinyl }) => {
+              ({ number, id, img, title, desc, vinyl }) => {
                 return (
-                  <tr key={number}>
+                  <tr key={id}>
                     <td className="p-4 cart__bg">
                       {
                         img && <Image

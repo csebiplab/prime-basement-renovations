@@ -66,7 +66,12 @@ const benefitsData = [
 const Benefits = () => {
   return (
     <div className=" ">
-      <div className="container padding__top">
+      <div
+        data-aos="flip-right"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
+        className="container padding__top"
+      >
         <div className="!overflow-hidden">
           <div className="flex flex-col items-center">
             <div className="flex justify-center lg:justify-normal items-center">

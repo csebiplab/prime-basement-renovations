@@ -9,7 +9,7 @@ const ContactNow = () => {
   return (
     <div className="container padding__all">
       <div className="grid grid-cols-1 md:grid-cols-5 gap-[27px]">
-        <div className="order-2 md:order-1 md:col-span-2">
+        <div data-aos="fade-right" className="order-2 md:order-1 md:col-span-2">
           <div>
             <HeadingIcon text={headingIconText.contactNow__IconText} />
           </div>
@@ -45,15 +45,15 @@ const ContactNow = () => {
             </button>
           </div>
         </div>
-        <div className="order-1 md:order-2 md:col-span-3">
+        <div data-aos="fade-left" className="order-1 md:order-2 md:col-span-3">
           <iframe
             className="w-full"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2480.9407491954576!2d0.12261867609581635!3d51.55098547182316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a5b168f1a7ff%3A0x2a120e6e2ebb8a0e!2s16%20Bowes%20Rd%2C%20Dagenham%20RM8%202XJ%2C%20UK!5e0!3m2!1sen!2sbd!4v1731768175688!5m2!1sen!2sbd"
             width="822"
             height="544"
-            allowfullscreen=""
+            allowFullScreen=""
             loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
+            referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
       </div>

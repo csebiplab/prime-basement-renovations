@@ -14,7 +14,7 @@ const socialIcons = [
 
 const ContactUs = () => {
   return (
-    <div className="padding__top">
+    <div data-aos="zoom-in" className="padding__top">
       {/* large device  */}
       <div className="hidden md:block full__section_r_p pl-3 md:pl-0 contact__us__bg">
         <div className="grid grid-cols-1 grid-cols-8 gap-[30px] 5xl:gap-[55px]">

@@ -202,7 +202,7 @@ const QAPoolInstallationQuestionsNAns = [
 const Faq = () => {
   return (
     <div className="bg_swimmingPool padding__top ">
-      <section className="container">
+      <section data-aos="fade-up" className="container">
         <div className="flex flex-col items-center">
           <HeadingIcon text={headingIconText.faq__IconText} />
 
