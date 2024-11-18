@@ -217,14 +217,15 @@ const BasementRenovationsContractors = () => {
                       />
                       }
                       <Typography
-                        variant="small"
+                        variant="h3"
                         color="blue-gray"
                         className="font-bold"
                       >
-                        <h4 className="text-left pt-[15px] text-[22px] font-bold text-black leading-normal">
+                        <span className="text-left pt-[15px] text-[22px] font-bold text-black leading-normal">
                           {title}
-                        </h4>
-                        <h3 className="text-lg text-left font-normal leading-[25px] text-black">{desc}</h3>
+                        </span>
+                        <br />
+                        <span className="text-lg text-left font-normal leading-[25px] text-black">{desc}</span>
                       </Typography>
                     </td>
                     <td className="py-[4px] px-[17px] cart__bg">
@@ -287,14 +288,15 @@ const BasementRenovationsContractors = () => {
                       />
                       }
                       <Typography
-                        variant="small"
+                        variant="h3"
                         color="blue-gray"
                         className="font-bold"
                       >
-                        <h4 className="text-left pt-[15px] text-[22px] font-bold text-black leading-normal">
+                        <span className="text-left pt-[15px] text-[22px] font-bold text-black leading-normal">
                           {title}
-                        </h4>
-                        <h3 className="text-lg text-left font-normal leading-[25px] text-black">{desc}</h3>
+                        </span>
+                        <br />
+                        <span className="text-lg text-left font-normal leading-[25px] text-black">{desc}</span>
                       </Typography>
                     </td>
                     <td className="py-[4px] px-[17px] cart__bg">
