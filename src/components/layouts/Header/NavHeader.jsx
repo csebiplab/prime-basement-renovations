@@ -201,7 +201,7 @@ export function NavHeader() {
             height={26}
             className="w-[24px] h-[26px]"
           />
-          <marquee className="w-full" direction="right">
+          <marquee className="w-full" direction="left">
             <p className=" text-base font-normal leading-normal text-black">
               For{" "}
               <strong className="font-bold">premium basement renovation</strong>{" "}
@@ -310,8 +310,7 @@ export function NavHeader() {
           <Typography variant="paragraph" color="blue-gray">
             {/* Prime Basement Renovation */}
             <Image
-              src="/assets/primeBasementHomePage/nav__logo.png"
-              // src="/assets/primeBasementHomePage/footer__logo.png"
+              src="/assets/primeBasementHomePage/prime_basement_renovation_choose_us.png"
               alt="nav logo"
               width={90}
               height={60}

@@ -12,7 +12,7 @@ const UpperNavbar = () => {
             height={26}
             className="w-[24px] h-[26px]"
           />
-          <marquee className="w-full" direction="right">
+          <marquee className="w-full" direction="left">
             <p className=" text-base font-normal leading-normal text-black">
               For{" "}
               <strong className="font-bold">premium basement renovation</strong>{" "}
