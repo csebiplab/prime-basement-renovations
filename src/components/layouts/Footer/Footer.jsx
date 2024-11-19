@@ -41,7 +41,7 @@ const Footer = () => {
                   {
                     socialIcons?.map((icon, index)=>{
                       return <div key={index} className="">
-                        <Image className="social_icon_bg p-[4px]" src={icon} alt="social icon" width={25} height={25}/>
+                        <Image className="w-[45px] h-[45px] social_icon_bg p-[10px]" src={icon} alt="social icon" width={25} height={25} />
                       </div>
                     })
                   }
