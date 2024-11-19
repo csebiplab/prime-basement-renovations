@@ -41,27 +41,24 @@ const workingData = [
     title: "Quality Assurance",
     desc: "As we near completion, our team controls every detail to meet our high quality.",
   },
-  {
-    id: 7,
-    img: "/assets/primeBasementHomePage/workingProcess/working7.png",
-    title: "Final Walkthrough",
-    desc: "After completing the renovation, we complete a final walkthrough with you to ensure your satisfaction. We will address any last-minute adjustments and ensure you're happy with your new space.",
-  },
-  {
-    id: 8,
-    img: "/assets/primeBasementHomePage/workingProcess/working8.png",
-    title: "Aftercare",
-    desc: "Our commitment to you doesn't end with the renovation. We provide aftercare support to ensure your basement remains in excellent condition.",
-  },
+  // {
+  //   id: 7,
+  //   img: "/assets/primeBasementHomePage/workingProcess/working7.png",
+  //   title: "Final Walkthrough",
+  //   desc: "After completing the renovation, we complete a final walkthrough with you to ensure your satisfaction. We will address any last-minute adjustments and ensure you're happy with your new space.",
+  // },
+  // {
+  //   id: 8,
+  //   img: "/assets/primeBasementHomePage/workingProcess/working8.png",
+  //   title: "Aftercare",
+  //   desc: "Our commitment to you doesn't end with the renovation. We provide aftercare support to ensure your basement remains in excellent condition.",
+  // },
 ];
 
 const WorkingProcess = () => {
   return (
     <div>
-      <div
-        data-aos="zoom-in"
-        className="container padding__top"
-      >
+      <div data-aos="zoom-in" className="container padding__top">
         <div className="flex flex-col justify-center items-center">
           <HeadingIcon text={headingIconText.workingProcess__IconText} />
           <h2 className="text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-black text-center leading-normal">
@@ -96,6 +93,41 @@ const WorkingProcess = () => {
               </div>
             );
           })}
+        </div>
+        {/* second part  */}
+        <div className="w-full flex flex-col md:flex-row justify-center gap-[60px] 5xl:gap-[83px] pt-[25px]">
+          <div className="w-full md:w-1/3 relative">
+            <Image
+              src="/assets/primeBasementHomePage/workingProcess/working7.png"
+              alt="working img"
+              width={129}
+              height={129}
+              className="w-[129px] h-[129px] mx-auto"
+            />
+            <p className="text-[25px] text-center font-bold leading-9 text-black pt-[15px] pb-[10px]">
+            Final Walkthrough
+            </p>
+            <p className="text-lg font-light text-black text-center pb-[25px]">
+            After completing the renovation, we complete a final walkthrough with you to ensure your satisfaction. We will address any last-minute adjustments and ensure you're happy with your new space.
+            </p>
+            <div className="absolute bottom-0 w-full h-[2px] bg-secondary-900" />
+          </div>
+          <div className="w-full md:w-1/3 relative">
+            <Image
+              src="/assets/primeBasementHomePage/workingProcess/working8.png"
+              alt="working img"
+              width={129}
+              height={129}
+              className="w-[129px] h-[129px] mx-auto"
+            />
+            <p className="text-[25px] text-center font-bold leading-9 text-black pt-[15px] pb-[10px]">
+            Aftercare
+            </p>
+            <p className="text-lg font-light text-black text-center pb-[25px]">
+            Our commitment to you doesn't end with the renovation. We provide aftercare support to ensure your basement remains in excellent condition.
+            </p>
+            <div className="absolute bottom-0 w-full h-[2px] bg-secondary-900" />
+          </div>
         </div>
       </div>
     </div>

@@ -110,7 +110,7 @@ const ConsiderationAndLimitation = () => {
             className="h-[435px] md:h-full w-full md:w-auto"
           />
         </div>
-        <div className="md:col-span-2 border-2 border-bg-primary-300 mr-0 md:mr-3">
+        <div className="md:col-span-2 border-t-2 border-r-2 border-l-2 border-bg-primary-300 mr-0 md:mr-3">
           <div>
             <h3 className="text-[20px] font-bold text-black leading-normal text-center py-[13px]">
               Consideration Factors
