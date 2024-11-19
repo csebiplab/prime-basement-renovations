@@ -7,7 +7,7 @@ const AosSetup = () => {
         import("aos").then((AOS)=>
         AOS.init({
             duration: 1200,
-            // once: true,
+            once: true,
         }))
     },[])
     return (

@@ -103,9 +103,10 @@ const ConsiderationAndLimitation = () => {
       </div>
 
       {/* cart part large device  */}
+      <div className="hidden md:block">
       <div
         data-aos="fade-up"
-        className="hidden md:block grid grid-cols-1 md:grid-cols-6 mt-[25px]"
+        className="grid grid-cols-1 md:grid-cols-6 mt-[25px]"
       >
         <div className="md:col-span-1">
           <Image
@@ -175,6 +176,7 @@ const ConsiderationAndLimitation = () => {
             className="h-[435px] md:h-full w-full md:w-auto"
           />
         </div>
+      </div>
       </div>
 
       {/* cart part small device  */}
