@@ -52,16 +52,16 @@ const Footer = () => {
               {footerLinks.map((category, index) => (
                 <div
                   key={index}
-                  className={`mt-5 md:mt-0 text-start ${
+                  className={` text-start ${
                     category.cat === "News" ? "justify-self-center" : ""
                   }`}
                 >
-                  <p className="text-black !text-xl mb-5 font-bold">
+                  <p className="text-black !text-xl mb-3 md:mb-5 font-bold">
                     {category.cat}
                   </p>
                   <ul>
                     {category.links.map((link, idx) => (
-                      <li key={idx} className="mb-9">
+                      <li key={idx} className="mb-4 md:mb-9">
                         <Link href={link.url}>
                           <span className="text-black !text-base !font-normal">
                             {link.label}
@@ -74,7 +74,7 @@ const Footer = () => {
               ))}
 
               <div className="w-full lg:w-auto text-start">
-                <p className="text-black !text-xl mb-5 font-bold">Contact Us</p>
+                <p className="text-black !text-xl mb-3 md:mb-5 font-bold">Contact Us</p>
 
                 <ul className="">
                   <li className="flex items-center gap-[15px] text-black text-base font-normal leading-[25px]">
@@ -92,7 +92,7 @@ const Footer = () => {
                       163 Bowes rd, Toronto
                     </Link>{" "}
                   </li>
-                  <li className="flex items-center gap-[15px] text-black text-base font-normal leading-[25px] py-[30px]">
+                  <li className="flex items-center gap-[15px] text-black text-base font-normal leading-[25px] py-[15px] md:py-[30px]">
                     {" "}
                     <Image
                       src="/assets/primeBasementHomePage/icons/phone.png"
@@ -119,7 +119,7 @@ const Footer = () => {
                       basement Renovation@gmail.com
                     </Link>
                   </li>
-                  <li className="flex items-center gap-[15px] text-black text-base font-normal leading-[25px] pt-[30px]">
+                  <li className="flex items-center gap-[15px] text-black text-base font-normal leading-[25px] pt-[15px] md:pt-[30px]">
                     <Image
                       src="/assets/primeBasementHomePage/icons/clock.png"
                       alt="clock icon"

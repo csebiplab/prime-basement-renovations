@@ -78,7 +78,10 @@ const limitationFactorData = [
 const ConsiderationAndLimitation = () => {
   return (
     <div className=" padding__top">
-      <div data-aos="zoom-in" className="container flex flex-col items-center justify-center">
+      <div
+        data-aos="zoom-in"
+        className="container flex flex-col items-center justify-center"
+      >
         <HeadingIcon
           text={headingIconText.considerationAndLimitation__IconText}
         />
@@ -99,8 +102,11 @@ const ConsiderationAndLimitation = () => {
         </p>
       </div>
 
-      {/* cart part  */}
-      <div data-aos="fade-up" className="grid grid-cols-1 md:grid-cols-6 mt-[25px]">
+      {/* cart part large device  */}
+      <div
+        data-aos="fade-up"
+        className="hidden md:block grid grid-cols-1 md:grid-cols-6 mt-[25px]"
+      >
         <div className="md:col-span-1">
           <Image
             src="/assets/primeBasementHomePage/consideration1.png"
@@ -168,6 +174,82 @@ const ConsiderationAndLimitation = () => {
             height={669}
             className="h-[435px] md:h-full w-full md:w-auto"
           />
+        </div>
+      </div>
+
+      {/* cart part small device  */}
+      <div
+        data-aos="fade-up"
+        className="block md:hidden grid grid-cols-1 md:grid-cols-6 mt-[25px]"
+      >
+        <div className="md:col-span-1">
+          <Image
+            src="/assets/primeBasementHomePage/consideration1.png"
+            alt="consideration image"
+            width={334}
+            height={669}
+            className="h-[435px] md:h-full w-full md:w-auto"
+          />
+        </div>
+        <div className="md:col-span-2 border-t-2 border-r-2 border-l-2 border-bg-primary-300 mr-0 md:mr-3">
+          <div>
+            <h3 className="text-[20px] font-bold text-black leading-normal text-center py-[13px]">
+              Consideration Factors
+            </h3>
+            {considerationFactorData?.map((data) => {
+              return (
+                <div
+                  key={data.id}
+                  className={`border-b-2 border-bg-primary-300 px-[8px] py-[10px] ${
+                    data.id === 7 && "border-b-0"
+                  }`}
+                >
+                  <p className="text-lg font-bold text-black leading-normal">
+                    {data.title}
+                  </p>
+                  <p className="text-lg font-normal text-black leading-normal">
+                    {data.desc}
+                  </p>
+                </div>
+              );
+            })}
+          </div>
+          <div className="rounded-l-[50px] rounded-tr-[0px] bg-gradient-to-b from-[#FF3100] to-[#931C00]" />
+        </div>
+
+        <div className="md:col-span-1">
+          <Image
+            src="/assets/primeBasementHomePage/consideration2.png"
+            alt="consideration image"
+            width={334}
+            height={669}
+            className="h-[435px] md:h-full w-full md:w-auto"
+          />
+        </div>
+
+        <div className="md:col-span-2 border-2 border-bg-primary-300 ml-0 md:ml-3">
+          <div>
+            <h3 className="text-[20px] font-bold text-black leading-normal text-center py-[13px]">
+              Limitation Factors
+            </h3>
+            {limitationFactorData?.map((data) => {
+              return (
+                <div
+                  key={data.id}
+                  className={`border-b-2 border-bg-primary-300 px-[8px] py-[10px] ${
+                    data.id === 7 && "border-b-0"
+                  }`}
+                >
+                  <p className="text-lg font-bold text-black leading-normal">
+                    {data.title}
+                  </p>
+                  <p className="text-lg font-normal text-black leading-normal">
+                    {data.desc}
+                  </p>
+                </div>
+              );
+            })}
+          </div>
         </div>
       </div>
     </div>
