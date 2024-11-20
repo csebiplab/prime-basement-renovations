@@ -233,8 +233,8 @@ export function NavHeader() {
               </div>
 
               <div className="flex gap-x-4">
-                <div className="hidden md:block">
-                  <button className="flex items-center gap-[10px] py-[15px] px-[12px] text-base font-bold text-white leading-normal rounded-[8px] bg-primary-700">
+                <div className="">
+                  <button className="flex items-center gap-[10px] py-[10px] md:py-[15px] px-[12px] text-base font-bold text-white leading-normal rounded-[8px] bg-primary-700">
                     <Link className="text-white" href="tel:647-449-9512">
                       Get a Free Quote
                     </Link>
@@ -261,17 +261,17 @@ export function NavHeader() {
                 >
                   {openNav ? (
                     <Image
-                      src="/assets/primeBasementHomePage/menu_bar.png"
+                      src="/assets/images/menu_bar.jpg"
                       alt="menu bar"
-                      width={39}
-                      height={39}
+                      width={50}
+                      height={50}
                     />
                   ) : (
                     <Image
-                      src="/assets/primeBasementHomePage/menu_bar.png"
+                      src="/assets/images/menu_bar.jpg"
                       alt="menu bar"
-                      width={39}
-                      height={39}
+                      width={50}
+                      height={50}
                     />
                   )}
                   <span className="sr-only">Menu</span>
