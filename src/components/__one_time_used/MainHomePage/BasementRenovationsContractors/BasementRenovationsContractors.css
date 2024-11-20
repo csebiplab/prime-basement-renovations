@@ -7,3 +7,17 @@
     border: 1px solid #AFAFAF;
     background: #FFF;
 }
+
+.small_device_cart_bg1{
+    border: 1px solid #BBB;
+    background: #F7F7F7;
+}
+
+.small_device_odd_bg{
+    border: 1px solid #BBB;
+    background: #F7F7F7;
+}
+.small_device_event_bg{
+    border: 1px solid #BBB;
+    background: #fff;
+}

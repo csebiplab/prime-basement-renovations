@@ -92,7 +92,7 @@ a {
 ::-webkit-scrollbar-thumb {
   border-radius: 100px;
   /* background: #888; */
-  @apply bg-primary-800;
+  @apply bg-primary-700;
 }
 
 /* Handle on hover */
