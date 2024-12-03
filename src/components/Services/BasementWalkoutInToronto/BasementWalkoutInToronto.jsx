@@ -6,6 +6,9 @@ import ContactUs from '@/components/__one_time_used/MainHomePage/ContactUs/Conta
 import LocationMap from '@/components/__one_time_used/MainHomePage/LocationMap/LocationMap';
 import Review from '@/components/__one_time_used/MainHomePage/Review/Review';
 import ProjectGallery from '@/components/__one_time_used/MainHomePage/ProjectGallery/ProjectGallery';
+import AboutUs from './AboutUs/AboutUs';
+import DefinitionOfWalkoutBasement from './DefinitionOfWalkoutBasement/DefinitionOfWalkoutBasement';
+import ExpertContractor from './ExpertContractor/ExpertContractor';
 
 // import React from "react";
 // import "./MainHomePage.css";
@@ -43,11 +46,19 @@ const BasementWalkoutInToronto = () => {
         <PartnerNRatings />
       </section>
 
-      {/* <section>
+      <section>
         <AboutUs />
       </section>
 
       <section>
+        <ExpertContractor />
+      </section>
+
+      <section>
+        <DefinitionOfWalkoutBasement />
+      </section>
+
+      {/* <section>
         <BasementRenovations />
       </section>
 
