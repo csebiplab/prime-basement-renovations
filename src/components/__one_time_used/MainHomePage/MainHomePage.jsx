@@ -97,13 +97,7 @@ const MainHomePage = () => {
       <section>
         <ReadyToStart />
       </section>
-
       
-
-      
-
-      
-
       <section>
         <Faq />
       </section>

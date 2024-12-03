@@ -21,101 +21,101 @@ import UpperNavbar from "./UpperNavbar";
 import "./NavHeader.css";
 
 // our services nav menu
-// const our_service_menu_items = {
-//   interior: [
-//     // {
-//     //   title: "Swimming Pool Installation In Vaughan",
-//     //   route: "/swimming-pool-installation-in-vaughan",
-//     // },
-//   ],
-// };
+const our_service_menu_items = {
+  interior: [
+    {
+      title: "Basement Walkout in Toronto",
+      route: "/basement-walkout-in-toronto",
+    },
+  ],
+};
 
-// function OurServiceManu() {
-//   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
-//   const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
-//   const renderItems = (data = []) => {
-//     return data?.map(({ route, title }, key) => (
-//       <Link href={route} key={key}>
-//         <MenuItem className="rounded-md">
-//           <Typography color="blue-gray">{title}</Typography>
-//         </MenuItem>
-//       </Link>
-//     ));
-//   };
+function OurServiceManu() {
+  const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
+  const renderItems = (data = []) => {
+    return data?.map(({ route, title }, key) => (
+      <Link href={route} key={key}>
+        <MenuItem className="rounded-md">
+          <Typography color="blue-gray">{title}</Typography>
+        </MenuItem>
+      </Link>
+    ));
+  };
 
-//   return (
-//     <>
-//       <Menu
-//         open={isMenuOpen}
-//         handler={setIsMenuOpen}
-//         offset={{ mainAxis: 20 }}
-//         placement="bottom"
-//         allowHover={true}
-//         className="bg-gray-100"
-//       >
-//         <MenuHandler>
-//           <div
-//             className="font-medium text-lg"
-//             aria-expanded={isMenuOpen} // Dynamically set the value based on the menu state
-//             aria-haspopup="true" // Indicating this element triggers a popup
-//             id=":RrarjtaH2:"
-//             role="button"
-//           >
-//             <ListItem
-//               className="flex items-center text-lg text-dark-500 font-bold px-1 lg:px-4 xl:px-5 2xl:px-6 -mt-[9px]"
-//               selected={isMenuOpen || isMobileMenuOpen}
-//               onClick={() => setIsMobileMenuOpen((cur) => !cur)}
-//             >
-//               Our Services
-//               <ChevronDownIcon
-//                 strokeWidth={2.5}
-//                 className={`hidden h-3 w-3 transition-transform lg:block ${
-//                   isMenuOpen ? "rotate-180" : ""
-//                 }`}
-//               />
-//               <ChevronDownIcon
-//                 strokeWidth={2.5}
-//                 className={`block h-3 w-3 transition-transform lg:hidden ${
-//                   isMobileMenuOpen ? "rotate-180" : ""
-//                 }`}
-//               />
-//             </ListItem>
-//           </div>
-//         </MenuHandler>
-//         <MenuList className="hidden max-w-[100vw] w-screen lg:block border-0 outline-0 bg-gray-100">
-//           <div className="container grid grid-cols-3 gap-y-2">
-//             <div>
-//               <h3 className="mb-1 text-primary-600 font-semibold">Interior</h3>
-//               <ul>
-//                 <li>{renderItems(our_service_menu_items.interior)}</li>
-//               </ul>
-//             </div>
-//           </div>
-//         </MenuList>
+  return (
+    <>
+      <Menu
+        open={isMenuOpen}
+        handler={setIsMenuOpen}
+        offset={{ mainAxis: 20 }}
+        placement="bottom"
+        allowHover={true}
+        className="bg-gray-100"
+      >
+        <MenuHandler>
+          <div
+            className="font-medium text-sm 5xl:text-base"
+            aria-expanded={isMenuOpen} // Dynamically set the value based on the menu state
+            aria-haspopup="true" // Indicating this element triggers a popup
+            id=":RrarjtaH2:"
+            role="button"
+          >
+            <ListItem
+              className="flex items-center text-sm 5xl:text-base text-black font-bold px-1 lg:px-4 -mt-[9px]"
+              selected={isMenuOpen || isMobileMenuOpen}
+              onClick={() => setIsMobileMenuOpen((cur) => !cur)}
+            >
+              Our Services
+              <ChevronDownIcon
+                strokeWidth={2.5}
+                className={`hidden h-3 w-3 transition-transform lg:block ${
+                  isMenuOpen ? "rotate-180" : ""
+                }`}
+              />
+              <ChevronDownIcon
+                strokeWidth={2.5}
+                className={`block h-3 w-3 transition-transform lg:hidden ${
+                  isMobileMenuOpen ? "rotate-180" : ""
+                }`}
+              />
+            </ListItem>
+          </div>
+        </MenuHandler>
+        <MenuList className="hidden max-w-[100vw] w-screen lg:block border-0 outline-0 bg-gray-100">
+          <div className="container grid grid-cols-3 gap-y-2">
+            <div>
+              <h3 className="mb-1 text-primary-600 font-semibold">Interior</h3>
+              <ul>
+                <li>{renderItems(our_service_menu_items.interior)}</li>
+              </ul>
+            </div>
+          </div>
+        </MenuList>
 
-//         {isMobileMenuOpen ? (
-//           <>
-//             <div className="block lg:hidden">
-//               <Collapse open={isMobileMenuOpen}>
-//                 <h4 className="text-primary-600 mb-1 font-semibold">
-//                   Interior
-//                 </h4>
-//                 <ul>
-//                   <li>{renderItems(our_service_menu_items.interior)}</li>
-//                 </ul>
-//                 <hr className="my-1" />
-//               </Collapse>
-//             </div>
-//           </>
-//         ) : (
-//           ""
-//         )}
-//       </Menu>
-//     </>
-//   );
-// }
-
+        {isMobileMenuOpen ? (
+          <>
+            <div className="block lg:hidden">
+              <Collapse open={isMobileMenuOpen}>
+                <h4 className="text-primary-600 mb-1 font-semibold">
+                  Interior
+                </h4>
+                <ul>
+                  <li>{renderItems(our_service_menu_items.interior)}</li>
+                </ul>
+                <hr className="my-1" />
+              </Collapse>
+            </div>
+          </>
+        ) : (
+          ""
+        )}
+      </Menu>
+    </>
+  );
+}
 // our services nav list end
+
 function NavList() {
   return (
     <List className="mt-4 mb-6 p-0 lg:mt-0 lg:mb-0 lg:flex-row md:items-center border-0 outline-none ">
@@ -125,26 +125,27 @@ function NavList() {
           href="/"
           variant="small"
           color="blue-gray"
-          className="font-medium rounded-full text-sm lg:text-sm xl:text-base 2xl:text-lg"
+          className="font-medium rounded-full text-sm 5xl:text-base"
         >
-          <ListItem className="flex items-start md:items-center text-base text-black font-bold leading-normal px-1 lg:px-4 xl:px-5 2xl:px-6">
+          <ListItem className="flex items-start md:items-center text-sm 5xl:text-base text-black font-bold leading-normal px-1 lg:px-4">
             Design and Planning
           </ListItem>
         </Typography>
       </div>
 
-      {/* <div className="mt-[6px]">
+      <div className="mt-[6px]">
         <OurServiceManu />
-      </div> */}
+      </div>
+
       <div className="border-b-2 md:border-0 border-bg-primary-500">
         <Typography
           as={Link}
           href="/"
           variant="small"
           color="blue-gray"
-          className="font-medium rounded-full text-sm md:text-sm xl:text-base 2xl:text-lg"
+          className="font-medium rounded-full text-sm 5xl:text-base"
         >
-          <ListItem className="flex items-start md:items-center text-base text-black font-bold leading-normal px-1 lg:px-4 xl:px-5 2xl:px-6">
+          <ListItem className="flex items-start md:items-center text-sm 5xl:text-base text-black font-bold leading-normal px-1 lg:px-4">
             Waterproofing
           </ListItem>
         </Typography>
@@ -156,9 +157,9 @@ function NavList() {
           href="/"
           variant="small"
           color="blue-gray"
-          className="font-medium rounded-full text-sm md:text-sm xl:text-base 2xl:text-lg"
+          className="font-medium rounded-full text-sm 5xl:text-base"
         >
-          <ListItem className="flex items-start md:items-center text-base text-black font-bold leading-normal px-1 lg:px-4 xl:px-5 2xl:px-6">
+          <ListItem className="flex items-start md:items-center text-sm 5xl:text-base text-black font-bold leading-normal px-1 lg:px-4">
             Plumbing Installation
           </ListItem>
         </Typography>
@@ -170,9 +171,9 @@ function NavList() {
           href="/"
           variant="small"
           color="blue-gray"
-          className="font-medium rounded-full text-sm md:text-sm xl:text-base 2xl:text-lg "
+          className="font-medium rounded-full text-sm 5xl:text-base"
         >
-          <ListItem className="flex items-start md:items-center text-base text-black font-bold leading-normal px-1 lg:px-4 xl:px-5 2xl:px-6">
+          <ListItem className="flex items-start md:items-center text-sm 5xl:text-base text-black font-bold leading-normal px-1 lg:px-4">
             Flooring Installation
           </ListItem>
         </Typography>
