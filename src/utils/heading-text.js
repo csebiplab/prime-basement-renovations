@@ -21,4 +21,22 @@ export const headingIconText = {
     contactUs__IconText : "Get Consultant",
     considerationAndLimitation__IconText : "Consideration & Limitation",
 
+    // Basement Walkout in Toronto page 
+    aboutUs__IconText : "About Us",
+    expertContractors__IconText : "Expert Contractors",
+    definitionOfWalkoutBasement__IconText : "Definition of Walkout Basement",
+    addBasementWalkout__IconText : "Add Basement Walkout",
+    services__IconText : "Services",
+    gallery__IconText : "Gallery",
+    cost__IconText : "Cost",
+    underpinning__IconText : "Underpinning",
+    benefits__IconText : "Benefits",
+    prosAndCons__IconText : "Pros and Cons",
+    Reviews__IconText : "Reviews",
+    chooseUs__IconText : "Choose Us",
+    faq__IconText : "FAQ",
+    serviceAreas__IconText : "Service Areas",
+    getConsultant__IconText : "Get Consultant",
+    contactNow__IconText : "Contact Now",
+
 }
