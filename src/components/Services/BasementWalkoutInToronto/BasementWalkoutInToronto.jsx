@@ -9,6 +9,7 @@ import ProjectGallery from '@/components/__one_time_used/MainHomePage/ProjectGal
 import AboutUs from './AboutUs/AboutUs';
 import DefinitionOfWalkoutBasement from './DefinitionOfWalkoutBasement/DefinitionOfWalkoutBasement';
 import ExpertContractor from './ExpertContractor/ExpertContractor';
+import BasementWalkoutInTorontoBanner from './BasementWalkoutInTorontoBanner/BasementWalkoutInTorontoBanner';
 
 // import React from "react";
 // import "./MainHomePage.css";
@@ -38,9 +39,9 @@ const BasementWalkoutInToronto = () => {
   return (
     <div className=" custom-container">
 
-      {/* <section>
-        <Banner/>
-      </section> */}
+      <section>
+        <BasementWalkoutInTorontoBanner/>
+      </section>
 
       <section>
         <PartnerNRatings />
