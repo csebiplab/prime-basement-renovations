@@ -208,7 +208,7 @@ const Faq = () => {
 
           <div>
             <h2 className="ttext-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-black text-center leading-normal">
-            Frequently Asked Questions of Basement Renovation 
+            Frequently Asked Questions of Basement Walkout 
             </h2>
           </div>
         </div>
