@@ -13,6 +13,8 @@ import BasementWalkoutInTorontoBanner from './BasementWalkoutInTorontoBanner/Bas
 import Faq from './Faq/Faq';
 import WhyChooseUs from './WhyChooseUs/WhyChooseUs';
 import Benefits from './Benefits/Benefits';
+import Cost from './Cost/Cost';
+import AddBasementWalkout from './AddBasementWalkout/AddBasementWalkout';
 
 // import React from "react";
 // import "./MainHomePage.css";
@@ -38,6 +40,7 @@ import Benefits from './Benefits/Benefits';
 // import BasementRenovationsContractors from "./BasementRenovationsContractors/BasementRenovationsContractors";
 // import ContactNow from "./ContactNow/ContactNow";
 // import ConsiderationAndLimitation from "./ConsiderationAndLimitation/ConsiderationAndLimitation";
+
 const BasementWalkoutInToronto = () => {
   return (
     <div className=" custom-container">
@@ -62,6 +65,10 @@ const BasementWalkoutInToronto = () => {
         <DefinitionOfWalkoutBasement />
       </section>
 
+      <section>
+        <AddBasementWalkout />
+      </section>
+
       {/* <section>
         <BasementRenovations />
       </section>
@@ -84,6 +91,10 @@ const BasementWalkoutInToronto = () => {
 
       <section>
         <ProjectGallery />
+      </section>
+
+      <section>
+        <Cost />
       </section>
 
       <section>
