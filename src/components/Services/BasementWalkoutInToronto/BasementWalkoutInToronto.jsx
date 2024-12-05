@@ -17,6 +17,7 @@ import Cost from './Cost/Cost';
 import AddBasementWalkout from './AddBasementWalkout/AddBasementWalkout';
 import ProsAndCons from './ProsAndCons/ProsAndCons';
 import Services from './Services/Services';
+import Underpinning from './Underpinning/Underpinning';
 
 const BasementWalkoutInToronto = () => {
   return (
@@ -56,6 +57,10 @@ const BasementWalkoutInToronto = () => {
 
       <section>
         <Cost />
+      </section>
+
+      <section>
+        <Underpinning />
       </section>
 
       <section>
