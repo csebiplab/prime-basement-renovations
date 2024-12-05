@@ -15,31 +15,7 @@ import WhyChooseUs from './WhyChooseUs/WhyChooseUs';
 import Benefits from './Benefits/Benefits';
 import Cost from './Cost/Cost';
 import AddBasementWalkout from './AddBasementWalkout/AddBasementWalkout';
-
-// import React from "react";
-// import "./MainHomePage.css";
-// import AboutUs from "./AboutUs/AboutUs";
-// import WorkingProcess from "./WorkingProcess/WorkingProcess";
-// import Banner from "./Banner/Banner";
-// import PartnerNRatings from "./PartnerNRatings/PartnerNRatings";
-// import ProjectGallery from "./ProjectGallery/ProjectGallery";
-// import Faq from "./Faq/Faq";
-// import Benefits from "./Benefits/Benefits";
-// import WhyChooseUs from "./WhyChooseUs/WhyChooseUs";
-// import ContactUs from "./ContactUs/ContactUs";
-// import ReadyToStart from "./ReadyToStart/ReadyToStart";
-// import Expert from "./Expert/Expert";
-// import Experienced from "./Experienced/Experienced";
-// import BasementRenovations from "./BasementRenovations/BasementRenovations";
-// import Professional from "./Professional/Professional";
-// import Trusted from "./Trusted/Trusted";
-// import Elevating from "./Elevating/Elevating";
-// import LocationMap from "./LocationMap/LocationMap";
-// import OurBasementRenovation from "./OurBasementRenovation/OurBasementRenovation";
-// import Review from "./Review/Review";
-// import BasementRenovationsContractors from "./BasementRenovationsContractors/BasementRenovationsContractors";
-// import ContactNow from "./ContactNow/ContactNow";
-// import ConsiderationAndLimitation from "./ConsiderationAndLimitation/ConsiderationAndLimitation";
+import ProsAndCons from './ProsAndCons/ProsAndCons';
 
 const BasementWalkoutInToronto = () => {
   return (
@@ -69,26 +45,6 @@ const BasementWalkoutInToronto = () => {
         <AddBasementWalkout />
       </section>
 
-      {/* <section>
-        <BasementRenovations />
-      </section>
-
-      <section>
-        <Experienced />
-      </section>
-
-      <section>
-        <Professional />
-      </section>
-
-      <section>
-        <WorkingProcess />
-      </section>
-
-      <section>
-        <ConsiderationAndLimitation />
-      </section> */}
-
       <section>
         <ProjectGallery />
       </section>
@@ -101,41 +57,17 @@ const BasementWalkoutInToronto = () => {
         <Benefits />
       </section>
 
-      {/* <section>
-        <Expert />
-      </section>
-
       <section>
-        <Elevating />
+        <ProsAndCons />
       </section>
-
-      <section>
-        <Trusted />
-      </section>
-
-      <section>
-        <OurBasementRenovation />
-      </section>
-
-      <section>
-        <Benefits />
-      </section> */}
 
       <section>
         <Review />
       </section>
 
-      {/* <section>
-        <BasementRenovationsContractors />
-      </section> */}
-
       <section>
         <WhyChooseUs />
       </section>
-
-      {/* <section>
-        <ReadyToStart />
-      </section> */}
       
       <section>
         <Faq />
