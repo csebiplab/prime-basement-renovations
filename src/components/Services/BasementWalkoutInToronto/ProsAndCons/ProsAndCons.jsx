@@ -8,70 +8,65 @@ import { headingIconText } from "@/utils/heading-text";
 const considerationFactorData = [
   {
     id: 1,
-    title: "Budget:",
-    desc: "Establishing a clear budget is crucial. We will work with you to develop a budget that aligns with your vision and financial goals.",
+    title: "Increased Natural Light:",
+    desc: "Unlike traditional basements, walkout basements have windows and doors that allow more natural light, making the space open.",
   },
   {
     id: 2,
-    title: "Design and Layout:",
-    desc: "Our team can help you create a layout that maximizes functionality while reflecting your style.",
+    title: "Easier Access to Outdoors:",
+    desc: "Direct access to the backyard or garden makes the space more functional for outdoor activities, storage, or entertainment.",
   },
   {
     id: 3,
-    title: "Building Codes and Permits:",
-    desc: "Basement renovations often require compliance with local building codes and the acquisition of permits.",
+    title: "Enhanced Accessibility:",
+    desc: "A walkout basement provides direct outdoor access, making it easier to use as a rental unit, guest suite, or recreational space.",
   },
   {
     id: 4,
-    title: "Moisture and waterproofing:",
-    desc: "Consider the need for waterproofing solutions to prevent future problems. We can assess your space and recommend.",
+    title: "More Versatile Use of Space:",
+    desc: "Walkout basements can be used for various purposes, such as guest suites, home offices, or even rental units, increasing.",
   },
   {
     id: 5,
-    title: "Lighting and Ventilation:",
-    desc: "Proper lighting and ventilation are essential for creating a comfortable and inviting atmosphere.",
+    title: "Better Ventilation:",
+    desc: "The increased air circulation through larger windows and doors can improve indoor air quality.",
   },
   {
     id: 6,
-    title: "Access and Egress:",
-    desc: "Ensuring safe exit routes is a key consideration, especially for sleeping areas.",
-  },
-  {
-    id: 7,
-    title: "Functionality Needs:",
-    desc: "Think about how the renovated space will meet your needs.",
-  },
+    title: "Enhanced Curb Appeal:",
+    desc: "With proper landscaping, a walkout basement enhances the overall look of your home, providing an attractive, seamless.",
+  }
 ];
 const limitationFactorData = [
   {
     id: 1,
-    title: "Structural Limitations:",
-    desc: "The existing structure may limit certain design options.",
+    title: "Higher Construction Costs:",
+    desc: "Building a walkout basement can be more expensive due to excavation, structural work, and additional grading.",
   },
   {
     id: 2,
-    title: "Existing Plumbing and Electrical Systems:",
-    desc: "The layout of existing plumbing and electrical systems may impact the design and functionality of your renovation.",
+    title: "Site Conditions:",
+    desc: "Not all properties are suitable for a walkout basement, especially those with flat terrain or poor drainage.",
   },
   {
     id: 3,
-    title: "Budget Constraints:",
-    desc: "Budget constraints may limit some design elements. We can help you prioritize your must-haves and find cost-effective",
+    title: "Drainage Challenges:",
+    desc: "Proper drainage systems are essential to prevent water intrusion, which can be costly to install and maintain.",
   },
   {
     id: 4,
-    title: "Timeframe:",
-    desc: "Renovation projects can take time, and delays may occur due to unforeseen circumstances.",
+    title: "Limited to Sloped Lots:",
+    desc: "Homes on flat lots may not be suitable for walkout basements without significant landscaping or structural changes.",
   },
   {
     id: 5,
-    title: "Environmental Considerations:",
-    desc: "Assessing the environmental conditions will help us recommend the best solutions for your space",
+    title: "Increased Exposure to Weather:",
+    desc: "A walkout basement is more vulnerable to weather conditions, including potential flooding, especially in areas with heavy rainfall",
   },
   {
     id: 6,
-    title: "Zoning Regulations:",
-    desc: "Local zoning laws may affect what you can do with your basement. We will help ensure that your renovation complies",
+    title: "Complex Permitting and Zoning:",
+    desc: "Depending on the location, permits and zoning regulations for adding a walkout basement may be more complicated.",
   },
 ];
 
@@ -101,17 +96,18 @@ const ProsAndCons = () => {
       >
         <div className="md:col-span-1">
           <Image
-            src="/assets/primeBasementHomePage/consideration1.png"
-            alt="consideration image"
+            src="/assets/basementWalkoutInToronto/prosAndCons/lg_pros.png"
+            alt="pros image"
             width={334}
-            height={669}
-            className="h-[435px] md:h-full w-full md:w-auto"
+            height={575}
+            className="h-[400px] md:h-full w-full md:w-auto"
           />
         </div>
-        <div className="md:col-span-2 border-t-2 border-r-2 border-l-2 border-bg-primary-300 mr-0 md:mr-3">
+
+        <div className="md:col-span-2 border-t-2 border-r-2 border-l-2 border-bg-primary-300 mr-0 md:mr-3 bg-white">
           <div>
             <h3 className="text-[20px] font-bold text-black leading-normal text-center py-[13px]">
-              Consideration Factors
+            Pros
             </h3>
             {considerationFactorData?.map((data) => {
               return (
@@ -121,10 +117,10 @@ const ProsAndCons = () => {
                     data.id === 7 && "border-b-0"
                   }`}
                 >
-                  <p className="text-lg font-bold text-black leading-normal">
+                  <p className="text-base 5xl:text-lg font-bold text-black leading-normal">
                     {data.title}
                   </p>
-                  <p className="text-lg font-normal text-black leading-normal">
+                  <p className="text-base 5xl:text-lg font-normal text-black leading-normal">
                     {data.desc}
                   </p>
                 </div>
@@ -134,23 +130,23 @@ const ProsAndCons = () => {
           <div className="rounded-l-[50px] rounded-tr-[0px] bg-gradient-to-b from-[#FF3100] to-[#931C00]" />
         </div>
 
-        <div className="md:col-span-2 border-2 border-bg-primary-300 ml-0 md:ml-3">
+        <div className="md:col-span-2 border-t-2 border-l-2 border-r-2 border-bg-primary-300 ml-0 md:ml-3 bg-white">
           <div>
             <h3 className="text-[20px] font-bold text-black leading-normal text-center py-[13px]">
-              Limitation Factors
+            Cons
             </h3>
             {limitationFactorData?.map((data) => {
               return (
                 <div
                   key={data.id}
                   className={`border-b-2 border-bg-primary-300 px-[8px] py-[10px] ${
-                    data.id === 7 && "border-b-0"
+                    data.id === 6 && "border-b-0"
                   }`}
                 >
-                  <p className="text-lg font-bold text-black leading-normal">
+                  <p className="text-base 5xl:text-lg font-bold text-black leading-normal">
                     {data.title}
                   </p>
-                  <p className="text-lg font-normal text-black leading-normal">
+                  <p className="text-base 5xl:text-lg font-normal text-black leading-normal">
                     {data.desc}
                   </p>
                 </div>
@@ -160,11 +156,11 @@ const ProsAndCons = () => {
         </div>
         <div className="md:col-span-1">
           <Image
-            src="/assets/primeBasementHomePage/consideration2.png"
-            alt="consideration image"
-            width={334}
-            height={669}
-            className="h-[435px] md:h-full w-full md:w-auto"
+            src="/assets/basementWalkoutInToronto/prosAndCons/lg_cons.png"
+            alt="cons image"
+            width={335}
+            height={575}
+            className="h-[400px] md:h-full w-full md:w-auto"
           />
         </div>
       </div>
@@ -177,8 +173,8 @@ const ProsAndCons = () => {
       >
         <div className="md:col-span-1">
           <Image
-            src="/assets/primeBasementHomePage/consideration1.png"
-            alt="consideration image"
+            src="/assets/basementWalkoutInToronto/prosAndCons/sm_pros.png"
+            alt="pros image"
             width={334}
             height={669}
             className="h-[435px] md:h-full w-full md:w-auto"
@@ -187,14 +183,14 @@ const ProsAndCons = () => {
         <div className="md:col-span-2 border-t-2 border-r-2 border-l-2 border-bg-primary-300 mr-0 md:mr-3">
           <div>
             <h3 className="text-[20px] font-bold text-black leading-normal text-center py-[13px]">
-              Consideration Factors
+            Pros
             </h3>
             {considerationFactorData?.map((data) => {
               return (
                 <div
                   key={data.id}
                   className={`border-b-2 border-bg-primary-300 px-[8px] py-[10px] ${
-                    data.id === 7 && "border-b-0"
+                    data.id === 6 && "border-b-0"
                   }`}
                 >
                   <p className="text-lg font-bold text-black leading-normal">
@@ -212,8 +208,8 @@ const ProsAndCons = () => {
 
         <div className="md:col-span-1">
           <Image
-            src="/assets/primeBasementHomePage/consideration2.png"
-            alt="consideration image"
+            src="/assets/basementWalkoutInToronto/prosAndCons/sm_cons.png"
+            alt="cons image"
             width={334}
             height={669}
             className="h-[435px] md:h-full w-full md:w-auto"
@@ -223,7 +219,7 @@ const ProsAndCons = () => {
         <div className="md:col-span-2 border-2 border-bg-primary-300 ml-0 md:ml-3">
           <div>
             <h3 className="text-[20px] font-bold text-black leading-normal text-center py-[13px]">
-              Limitation Factors
+            Cons
             </h3>
             {limitationFactorData?.map((data) => {
               return (

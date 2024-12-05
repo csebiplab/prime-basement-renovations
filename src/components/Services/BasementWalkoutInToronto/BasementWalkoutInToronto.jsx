@@ -16,6 +16,7 @@ import Benefits from './Benefits/Benefits';
 import Cost from './Cost/Cost';
 import AddBasementWalkout from './AddBasementWalkout/AddBasementWalkout';
 import ProsAndCons from './ProsAndCons/ProsAndCons';
+import Services from './Services/Services';
 
 const BasementWalkoutInToronto = () => {
   return (
@@ -43,6 +44,10 @@ const BasementWalkoutInToronto = () => {
 
       <section>
         <AddBasementWalkout />
+      </section>
+
+      <section>
+        <Services />
       </section>
 
       <section>
