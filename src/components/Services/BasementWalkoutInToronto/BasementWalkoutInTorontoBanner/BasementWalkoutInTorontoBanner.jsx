@@ -43,8 +43,8 @@ const BasementWalkoutInTorontoBanner = () => {
       </div>
       {/* small device  */}
       <div className="block md:hidden">
-      <div className="sm_banner__bg py-[51px]">
-      <div className="container h-full flex flex-col items-start justify-center">
+      <div className="sm_banner__bg px-[24px] md:px-[30px] py-[51px]">
+      <div className="h-full flex flex-col items-start justify-center">
         <h1 className="text-[30px] font-bold text-white leading-normal">
         Basement Walkout <br /> in Toronto
         </h1>

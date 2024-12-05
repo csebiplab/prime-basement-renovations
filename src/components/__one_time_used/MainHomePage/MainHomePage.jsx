@@ -22,6 +22,7 @@ import Review from "./Review/Review";
 import BasementRenovationsContractors from "./BasementRenovationsContractors/BasementRenovationsContractors";
 import ContactNow from "./ContactNow/ContactNow";
 import ConsiderationAndLimitation from "./ConsiderationAndLimitation/ConsiderationAndLimitation";
+import { bHeadingTexts } from "@/utils/bHeadingText";
 const MainHomePage = () => {
   return (
     <div className=" custom-container">
@@ -59,7 +60,7 @@ const MainHomePage = () => {
       </section>
 
       <section>
-        <ProjectGallery />
+        <ProjectGallery bHeading={bHeadingTexts.homePageGallery__bHeading}/>
       </section>
 
       <section>
@@ -83,7 +84,7 @@ const MainHomePage = () => {
       </section>
 
       <section>
-        <Review />
+        <Review bHeading={bHeadingTexts.homePageReview__bHeading}/>
       </section>
 
       <section>
@@ -103,7 +104,7 @@ const MainHomePage = () => {
       </section>
 
       <section>
-        <LocationMap />
+        <LocationMap bHeading={bHeadingTexts.homePageServiceArea__bHeading}/>
       </section>
 
       <section>

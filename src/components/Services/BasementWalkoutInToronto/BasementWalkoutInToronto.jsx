@@ -18,6 +18,7 @@ import AddBasementWalkout from './AddBasementWalkout/AddBasementWalkout';
 import ProsAndCons from './ProsAndCons/ProsAndCons';
 import Services from './Services/Services';
 import Underpinning from './Underpinning/Underpinning';
+import { bHeadingTexts } from '@/utils/bHeadingText';
 
 const BasementWalkoutInToronto = () => {
   return (
@@ -52,7 +53,7 @@ const BasementWalkoutInToronto = () => {
       </section>
 
       <section>
-        <ProjectGallery />
+        <ProjectGallery bHeading={bHeadingTexts.basementWalkoutGallery__bHeading}/>
       </section>
 
       <section>
@@ -72,7 +73,7 @@ const BasementWalkoutInToronto = () => {
       </section>
 
       <section>
-        <Review />
+        <Review bHeading = {bHeadingTexts.basementWalkoutReview__bHeading}/>
       </section>
 
       <section>
@@ -84,7 +85,7 @@ const BasementWalkoutInToronto = () => {
       </section>
 
       <section>
-        <LocationMap />
+        <LocationMap bHeading={bHeadingTexts.basementWalkoutServiceArea__bHeading}/>
       </section>
 
       <section>

@@ -104,7 +104,7 @@ const reviewData = [
   },
 ];
 
-const Review = () => {
+const Review = ({bHeading = "Empty"}) => {
   return (
     <div>
       <div
@@ -115,7 +115,7 @@ const Review = () => {
         <div className="flex flex-col justify-center items-center pb-[25px]">
           <HeadingIcon text={headingIconText.review__IconText} />
           <h2 className="text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-black text-center leading-normal">
-            Reviews For Basement Renovation
+            {bHeading}
           </h2>
         </div>
         <div>

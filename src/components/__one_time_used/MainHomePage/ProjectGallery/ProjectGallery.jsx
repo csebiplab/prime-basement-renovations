@@ -51,14 +51,14 @@ const ProjectGallery = ({ bHeading = "empty" }) => {
   };
 
   return (
-    <div className="bg_swimmingPool">
+    <div className="">
       <div data-aos="zoom-in" className="custom-containe padding__top">
         <div className="container">
           <div className="flex flex-col justify-center items-center">
             <HeadingIcon text={headingIconText.gallery__IconText} />
             <div className="">
               <h2 className="text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-black text-center leading-normal">
-                Gallery Of Our Basement Renovation Contractors Toronto
+                {bHeading}
               </h2>
             </div>
           </div>

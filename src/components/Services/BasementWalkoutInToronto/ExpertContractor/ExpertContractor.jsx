@@ -7,10 +7,10 @@ const ExpertContractor = () => {
     return (
         <div className='full__section_l_p pr-3 md:pr-0 padding__top'>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-[15px] xl:gap-[36px]'>
-                <div data-aos="fade-left" className='order-2 md:col-span-1'>
+                <div data-aos="fade-left" className='order-1 md:order-2 md:col-span-1'>
                     <Image src="/assets/basementWalkoutInToronto/expert_contractor.png" alt="expert contractor" width={804} height={763} className='w-full'/>
                 </div>
-                <div data-aos="fade-right" className='order-1 md:col-span-1'>
+                <div data-aos="fade-right" className='order-2 md:order-1 md:col-span-1'>
                     <div className='flex justify-center md:justify-start items-center '>
                         <HeadingIcon text={headingIconText.expertContractors__IconText}/>
                     </div>

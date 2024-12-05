@@ -7,7 +7,7 @@ import "./Underpinning.css";
 const Underpinning = () => {
     return (
         <div className='full__section_r_p pl-3 md:pl-0 padding__top'>
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-[15px] xl:gap-[30px]'>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-[15px] xl:gap-[20px]'>
                 <div data-aos="fade-right" className='md:col-span-1'>
                     <Image src="/assets/basementWalkoutInToronto/underpinning.png" alt="underpinning image" width={803} height={752} className='w-full'/>
                 </div>
@@ -23,9 +23,9 @@ const Underpinning = () => {
                     <div className="flex items-center gap-[10px] 2xl:gap-[12px] 5xl:gap-[14px]">
                         <div className="w-[10px] h-[117px] underpinning_bar_bg"/>
                         <div>
-                            <p className='text-base 5xl:text-lg font-normal leading-[35px] text-black text-center md:text-left'><strong>Increased Ceiling Height:</strong> This makes your basement feel more open and livable.</p>
-                            <p className='text-base 5xl:text-lg font-normal leading-[35px] text-black text-center md:text-left'><strong>Enhanced Structural Stability:</strong> Ensures the safety and longevity of your foundation.</p>
-                            <p className='text-base 5xl:text-lg font-normal leading-[35px] text-black text-center md:text-left'><strong>Improved Property Value: </strong> Adds functionality and appeal to your home.</p>
+                            <p className='text-base xl:text-[15px] 5xl:text-lg font-normal leading-[35px] text-black text-center md:text-left'><strong>Increased Ceiling Height:</strong> This makes your basement feel more open and livable.</p>
+                            <p className='text-base xl:text-[15px] 5xl:text-lg font-normal leading-[35px] text-black text-center md:text-left'><strong>Enhanced Structural Stability:</strong> Ensures the safety and longevity of your foundation.</p>
+                            <p className='text-base xl:text-[15px] 5xl:text-lg font-normal leading-[35px] text-black text-center md:text-left'><strong>Improved Property Value: </strong> Adds functionality and appeal to your home.</p>
                         </div>
                     </div>
                     <p className='text-base 5xl:text-lg font-normal leading-[35px] text-black text-center md:text-left'>Our experienced team manages the entire process, from engineering assessments to excavation and reinforcement, ensuring minimal disruption to your property. Whether adding a rental unit, expanding living space, or upgrading your home, we provide reliable underpinning solutions tailored to your project needs. Contact Prime Basement Renovations today to discuss underpinning for your walkout and take the first step toward transforming your space!

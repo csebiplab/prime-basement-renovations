@@ -75,7 +75,7 @@ const locations = [
   
 ];
 
-const LocationMap = () => {
+const LocationMap = ({bHeading = "empty"}) => {
   return (
     <div>
       <div data-aos="fade-up" className="custom-container padding__top">
@@ -85,7 +85,7 @@ const LocationMap = () => {
 
             <div>
               <h2 className="text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-black text-center leading-normal">
-              Service Areas of Basement Renovation 
+              {bHeading}
               </h2>
             </div>
           </div>
