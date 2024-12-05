@@ -5,10 +5,15 @@
 * {
   @apply text-dark;
 }
+
 body {
-  background-color: #f7f7f7;
-  overflow-x: hidden !important;
+  @apply font-montserrat bg-[#f7f7f7] overflow-x-hidden;
 }
+
+.font-family-primary {
+  @apply  font-montserrat;
+}
+
 footer * {
   @apply text-white;
 }

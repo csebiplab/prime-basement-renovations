@@ -1,28 +1,24 @@
 import Footer from "@/components/layouts/Footer/Footer";
-import { Roboto_Slab } from "next/font/google";
-import "../globals.css"
+import { Montserrat } from "next/font/google";
+import "../globals.css";
 import { NavHeader } from "@/components/layouts/Header/NavHeader";
 import AosSetup from "@/config/aos";
 
-
-
-const robotoSlab = Roboto_Slab({ subsets: ["latin"] });
-
+const montserrat = Montserrat({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-montserrat",
+});
 
 export default function RootLayout({ children }) {
-
-
-
   return (
     <html lang="en">
-      <body className={robotoSlab.className}>
-        <AosSetup/>
+      <body className={`${montserrat.variable}`}>
+        <AosSetup />
         <>
           <NavHeader />
         </>
-        <>
-          {children}
-        </>
+        <>{children}</>
         <>
           <Footer />
         </>

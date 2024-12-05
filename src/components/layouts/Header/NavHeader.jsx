@@ -62,7 +62,7 @@ function OurServiceManu() {
             role="button"
           >
             <ListItem
-              className="flex items-center text-sm 5xl:text-base text-black font-bold px-1 lg:px-4 -mt-[9px]"
+              className="font-family-primary flex items-center text-sm 5xl:text-base text-black font-bold px-[8px] 2xl:px-[10px] 3xl:px-[12px] 4xl:px-[14px] 5xl:px-[16px] -mt-[8px]"
               selected={isMenuOpen || isMobileMenuOpen}
               onClick={() => setIsMobileMenuOpen((cur) => !cur)}
             >
@@ -118,7 +118,7 @@ function OurServiceManu() {
 
 function NavList() {
   return (
-    <List className="mt-4 mb-6 p-0 lg:mt-0 lg:mb-0 lg:flex-row md:items-center border-0 outline-none ">
+    <List className="font-family-primary mt-4 mb-6 p-0 lg:mt-0 lg:mb-0 lg:flex-row md:items-center border-0 outline-none ">
       <div className="border-b-2 md:border-0 border-bg-primary-500">
         <Typography
           as={Link}
@@ -127,7 +127,7 @@ function NavList() {
           color="blue-gray"
           className="font-medium rounded-full text-sm 5xl:text-base"
         >
-          <ListItem className="flex items-start md:items-center text-sm 5xl:text-base text-black font-bold leading-normal px-1 lg:px-4">
+          <ListItem className="font-family-primary flex items-start md:items-center text-sm 5xl:text-base text-black font-bold leading-normal px-[8px] 2xl:px-[10px] 3xl:px-[12px] 4xl:px-[14px] 5xl:px-[16px]">
             Design and Planning
           </ListItem>
         </Typography>
@@ -145,7 +145,7 @@ function NavList() {
           color="blue-gray"
           className="font-medium rounded-full text-sm 5xl:text-base"
         >
-          <ListItem className="flex items-start md:items-center text-sm 5xl:text-base text-black font-bold leading-normal px-1 lg:px-4">
+          <ListItem className="font-family-primary flex items-start md:items-center text-sm 5xl:text-base text-black font-bold leading-normal px-[8px] 2xl:px-[10px] 3xl:px-[12px] 4xl:px-[14px] 5xl:px-[16px]">
             Waterproofing
           </ListItem>
         </Typography>
@@ -159,7 +159,7 @@ function NavList() {
           color="blue-gray"
           className="font-medium rounded-full text-sm 5xl:text-base"
         >
-          <ListItem className="flex items-start md:items-center text-sm 5xl:text-base text-black font-bold leading-normal px-1 lg:px-4">
+          <ListItem className="font-family-primary flex items-start md:items-center text-sm 5xl:text-base text-black font-bold leading-normal px-[8px] 2xl:px-[10px] 3xl:px-[12px] 4xl:px-[14px] 5xl:px-[16px]">
             Plumbing Installation
           </ListItem>
         </Typography>
@@ -173,7 +173,7 @@ function NavList() {
           color="blue-gray"
           className="font-medium rounded-full text-sm 5xl:text-base"
         >
-          <ListItem className="flex items-start md:items-center text-sm 5xl:text-base text-black font-bold leading-normal px-1 lg:px-4">
+          <ListItem className="font-family-primary flex items-start md:items-center text-sm 5xl:text-base text-black font-bold leading-normal px-[8px] 2xl:px-[10px] 3xl:px-[12px] 4xl:px-[14px] 5xl:px-[16px]">
             Flooring Installation
           </ListItem>
         </Typography>
@@ -235,7 +235,7 @@ export function NavHeader() {
 
               <div className="flex gap-x-4">
                 <div className="hidden md:block">
-                  <button className="flex items-center gap-[10px] py-[10px] md:py-[15px] px-[12px] text-base font-bold text-white leading-normal rounded-[8px] bg-primary-700">
+                  <button className="flex items-center gap-[8px] 5xl:gap-[10px] py-[10px] xl:py-[11px] 2xl:py-[12px] 3xl:py-[13px] 4xl:py-[14px] 5xl:py-[15px] px-[8px] 2xl:px-[9px] 3xl:px-[10px] 4xl:px-[11px] 5xl:px-[12px] text-sm 5xl:text-base font-bold text-white leading-tight 5xl:leading-normal rounded-[8px] bg-primary-700">
                     <Link className="text-white" href="tel:647-449-9512">
                       Get a Free Quote
                     </Link>

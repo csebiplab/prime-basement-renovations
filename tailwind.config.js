@@ -118,6 +118,9 @@ module.exports = withMT({
           'opacity-50': "#D9D9D980",  // Gray with 50% opacity
         }
       },
+      fontFamily: {
+        montserrat: ['var(--font-montserrat)'],
+    },
     },
   },
   plugins: [],
